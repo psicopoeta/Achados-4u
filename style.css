@@ -49,6 +49,32 @@ header .tagline {
     opacity: 0.95;
 }
 
+/* Header: logo-only layout */
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0; /* reduzido para parecer proporcional com o logo */
+}
+
+.logo-link {
+    display: block;
+}
+
+.site-logo {
+    max-width: 220px; /* largura máxima do logo no desktop */
+    height: auto;
+    display: block;
+}
+
+/* Responsividade do logo */
+@media (max-width: 768px) {
+    .site-logo { max-width: 160px; }
+}
+@media (max-width: 480px) {
+    .site-logo { max-width: 120px; }
+}
+
 /* ===== Navegação ===== */
 .navbar {
     background-color: #333;
