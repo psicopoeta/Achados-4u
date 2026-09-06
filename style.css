@@ -62,17 +62,17 @@ header .container {
 }
 
 .site-logo {
-    max-width: 220px; /* largura máxima do logo no desktop */
+    max-width: 280px; /* largura máxima do logo no desktop */
     height: auto;
     display: block;
 }
 
 /* Responsividade do logo */
-@media (max-width: 768px) {
-    .site-logo { max-width: 160px; }
+@media (max-width: 800px) {
+    .site-logo { max-width: 190px; }
 }
-@media (max-width: 480px) {
-    .site-logo { max-width: 120px; }
+@media (max-width: 500px) {
+    .site-logo { max-width: 130px; }
 }
 
 /* ===== Navegação ===== */
