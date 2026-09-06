@@ -15,12 +15,22 @@
         </div>
     </header>
 
-    <!-- Navegação -->
+    <!-- Navegação Principal -->
     <nav class="navbar">
         <div class="container">
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#produtos">Produtos</a></li>
+            <ul class="nav-principal">
+                <li><a href="index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Categorias</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="categoria-estimulacao-cognitiva.html">🧠 Estimulação Cognitiva</a></li>
+                        <li><a href="categoria-estimulacao-sensorial.html">👂 Estimulação Sensorial</a></li>
+                        <li><a href="categoria-sistema-proprioceptivo.html">💪 Sistema Proprioceptivo</a></li>
+                        <li><a href="categoria-sistema-vestibular.html">🌀 Sistema Vestibular</a></li>
+                        <li><a href="categoria-estimulacao-motora.html">🏃 Estimulação Motora (Praxias)</a></li>
+                        <li><a href="categoria-acessorios-identificacao.html">🎀 Acessórios de Identificação</a></li>
+                    </ul>
+                </li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
@@ -31,85 +41,66 @@
     <main class="container">
         <section id="home" class="hero">
             <h2>Bem-vindo à REGULATEA</h2>
-            <p>Somos uma loja associada do Mercado Livre e da Shopee dedicada a indicações de produtos de qualidade para auxiliar na regulação sensorial, estimulação física e cognitiva de pessoas neurodivergentes.</p>
+            <p>Somos uma loja associada do Mercado Livre dedicada a indicações de produtos de qualidade para auxiliar na regulação sensorial, estimulação física e cognitiva de pessoas neurodivergentes.</p>
             <p>Nossos produtos são selecionados com cuidado para oferecer as melhores opções disponíveis.</p>
         </section>
 
-        <!-- Seção de Produtos -->
+        <!-- Seção de Categorias em Destaque -->
         <section id="produtos" class="produtos">
             <h2>Nossas Categorias de Produtos</h2>
             
             <div class="categorias">
-                <!-- Categoria 1: Brinquedos Sensoriais -->
+                <!-- Categoria 1: Estimulação Cognitiva -->
                 <div class="categoria-card">
-                    <h3>🧸 Brinquedos Sensoriais</h3>
-                    <p>Brinquedos especialmente projetados para estimulação sensorial e relaxamento.</p>
-                    <a href="https://www.mercadolivre.com.br/search?q=brinquedo+sensorial" target="_blank" class="btn-ml">
-                        Ver no Mercado Livre
-                    </a>
-                    <a href="https://www.shopee.com.br/search?q=bola+sensorial" target="_blank" class="btn-ml">
-                        Ver na Shopee
+                    <h3>🧠 Estimulação Cognitiva</h3>
+                    <p>Fala e alfabetização, memória, planejamento, sequência lógica e habilidades sociais.</p>
+                    <a href="categoria-estimulacao-cognitiva.html" class="btn-categoria">
+                        Ver Produtos
                     </a>
                 </div>
 
-                <!-- Categoria 2: Fidgets e Widgets -->
+                <!-- Categoria 2: Estimulação Sensorial -->
                 <div class="categoria-card">
-                    <h3>⚙️ Fidgets e Widgets</h3>
-                    <p>Fidget toys e widgets para manter as mãos ocupadas e melhorar o foco.</p>
-                    <a href="https://www.mercadolivre.com.br/search?q=fidget+toy" target="_blank" class="btn-ml">
-                        Ver no Mercado Livre
-                    </a>
-                    <a href="https://www.shopee.com.br/search?q=bola+sensorial" target="_blank" class="btn-ml">
-                        Ver na Shopee
+                    <h3>👂 Estimulação Sensorial</h3>
+                    <p>Mordedores, fones de proteção auditiva, widgets, fidgets, spinners, tapetes, squishy e bolinhas de gel.</p>
+                    <a href="categoria-estimulacao-sensorial.html" class="btn-categoria">
+                        Ver Produtos
                     </a>
                 </div>
 
-                <!-- Categoria 3: Mordedores -->
+                <!-- Categoria 3: Sistema Proprioceptivo -->
                 <div class="categoria-card">
-                    <h3>😁 Mordedores e Acessórios Orais</h3>
-                    <p>Mordedores táteis para regulação oral e estimulação sensorial.</p>
-                    <a href="https://www.mercadolivre.com.br/search?q=mordedor+sensorial" target="_blank" class="btn-ml">
-                        Ver no Mercado Livre
-                    </a>
-                    <a href="https://www.shopee.com.br/search?q=bola+sensorial" target="_blank" class="btn-ml">
-                        Ver na Shopee
+                    <h3>💪 Sistema Proprioceptivo</h3>
+                    <p>Coletes, munhequeiras, tensores e luvas para estímulo proprioceptivo.</p>
+                    <a href="categoria-sistema-proprioceptivo.html" class="btn-categoria">
+                        Ver Produtos
                     </a>
                 </div>
 
-                <!-- Categoria 4: Acessórios de Identificação -->
+                <!-- Categoria 4: Sistema Vestibular -->
+                <div class="categoria-card">
+                    <h3>🌀 Sistema Vestibular</h3>
+                    <p>Balanços, pranchas de equilíbrio e bolas de pilates para trabalhar o equilíbrio.</p>
+                    <a href="categoria-sistema-vestibular.html" class="btn-categoria">
+                        Ver Produtos
+                    </a>
+                </div>
+
+                <!-- Categoria 5: Estimulação Motora -->
+                <div class="categoria-card">
+                    <h3>🏃 Estimulação Motora (Praxias)</h3>
+                    <p>Equilíbrio e grandes músculos, consciência corporal, habilidades motoras finas e grafomotricidade.</p>
+                    <a href="categoria-estimulacao-motora.html" class="btn-categoria">
+                        Ver Produtos
+                    </a>
+                </div>
+
+                <!-- Categoria 6: Acessórios de Identificação -->
                 <div class="categoria-card">
                     <h3>🎀 Acessórios de Identificação</h3>
                     <p>Acessórios para identificação e inclusão de pessoas neurodivergentes.</p>
-                    <a href="https://www.mercadolivre.com.br/search?q=acessorio+neurodiverso" target="_blank" class="btn-ml">
-                        Ver no Mercado Livre
-                    </a>
-                    <a href="https://www.shopee.com.br/search?q=bola+sensorial" target="_blank" class="btn-ml">
-                        Ver na Shopee
-                    </a>
-                </div>
-
-                <!-- Categoria 5: Jogos Pedagógicos -->
-                <div class="categoria-card">
-                    <h3>🎲 Jogos Pedagógicos</h3>
-                    <p>Jogos educativos para estimulação cognitiva e aprendizado.</p>
-                    <a href="https://www.mercadolivre.com.br/search?q=jogo+pedagogico" target="_blank" class="btn-ml">
-                        Ver no Mercado Livre
-                    </a>
-                    <a href="https://www.shopee.com.br/search?q=bola+sensorial" target="_blank" class="btn-ml">
-                        Ver na Shopee
-                    </a>
-    
-                </div>
-
-                <!-- Categoria 6: Estimulação Física (praxias) -->
-                <div class="categoria-card">
-                    <h3>🏃 Produtos para Estimulação muscular devido hipotonia e para melhora no equilíbrio, postura e mobilidade </h3>
-                    <p>Equipamentos e acessórios voltados às praxias.</p>
-                    <a href="https://www.mercadolivre.com.br/search?q=bola+sensorial" target="_blank" class="btn-ml">
-                        Ver no Mercado Livre
-                    </a>
-                    <a href="https://www.shopee.com.br/search?q=bola+sensorial" target="_blank" class="btn-ml">
-                        Ver na Shopee
+                    <a href="categoria-acessorios-identificacao.html" class="btn-categoria">
+                        Ver Produtos
                     </a>
                 </div>
             </div>
@@ -120,6 +111,58 @@
             <h2>Sobre a REGULATEA</h2>
             <p>A REGULATEA é uma iniciativa de indicação de produtos para pessoas neurodivergentes, incluindo autistas, com TDAH, e outras condições que se beneficiam de regulação sensorial e estimulação cognitiva.</p>
             <p>Todos os nossos produtos são cuidadosamente selecionados de fornecedores confiáveis disponíveis no Mercado Livre, garantindo qualidade, segurança e acessibilidade.</p>
+        </section>
+
+        <!-- Seção Acessórios de Identificação -->
+        <section id="carteirinha" class="carteirinha-info">
+            <h2>Carteirinha de Identificação para Neurodivergentes</h2>
+            <p>A carteirinha de identificação é um documento que ajuda a identificar e proteger pessoas neurodivergentes em situações de crise, emergências ou em ambientes públicos.</p>
+            
+            <div class="carteirinha-content">
+                <h3>Como Adquirir Gratuitamente:</h3>
+                <div class="carteirinha-opcoes">
+                    <div class="opcao-carteirinha">
+                        <h4>🏥 Através de Órgãos Públicos</h4>
+                        <p>Muitos estados e municípios oferecem carteirinhas de identificação gratuitas para pessoas autistas e neurodivergentes. Entre em contato com:</p>
+                        <ul>
+                            <li>Secretaria de Saúde do seu município</li>
+                            <li>Secretaria de Assistência Social</li>
+                            <li>Centros de Atendimento Especializado</li>
+                            <li>Associações e ONGs locais que trabalham com neurodiversidade</li>
+                        </ul>
+                    </div>
+
+                    <div class="opcao-carteirinha">
+                        <h4>🌐 Associações Especializadas</h4>
+                        <p>Existem associações nacionais e estaduais que emitem carteirinhas gratuitamente:</p>
+                        <ul>
+                            <li>Associação de Autistas do Brasil</li>
+                            <li>Associações estaduais de autismo</li>
+                            <li>Organizações de apoio a neurodivergentes</li>
+                        </ul>
+                    </div>
+
+                    <div class="opcao-carteirinha">
+                        <h4>📋 Documentação Necessária</h4>
+                        <p>Geralmente é necessário:</p>
+                        <ul>
+                            <li>Diagnóstico médico ou psicológico</li>
+                            <li>RG ou CPF</li>
+                            <li>Comprovante de residência</li>
+                            <li>Foto 3x4 (dependendo da instituição)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Benefícios da Carteirinha:</h3>
+                <ul>
+                    <li>Identificação rápida em situações de crise</li>
+                    <li>Acesso a benefícios e políticas de inclusão</li>
+                    <li>Desconto em atividades e eventos</li>
+                    <li>Proteção e segurança em ambientes públicos</li>
+                    <li>Facilitação de atendimento prioritário</li>
+                </ul>
+            </div>
         </section>
 
         <!-- Seção de Contato -->
@@ -140,5 +183,7 @@
             <p>Loja associada do Mercado Livre | Indicações de produtos para neurodivergentes</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
