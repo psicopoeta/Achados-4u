@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "google-sheets-antigravity-sync": {
+      "command": "node",
+      "args": [
+        "scripts/mcp-server-google-sheets.js"
+      ]
+    }
+  }
+}
