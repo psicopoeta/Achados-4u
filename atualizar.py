@@ -4,10 +4,17 @@ import urllib.request
 import urllib.parse
 import re
 
-# CONFIGURAÇÕES ADAPTADAS PARA A SUA PLANILHA REAL
-CHAVE_API = "AIzaSyCOw0sef-Alux79-MuoQtH6oM525GVOC6g"
-LINK_OU_ID_PLANILHA = "https://docs.google.com/spreadsheets/d/1l_-h10C6XhYJ7wlM0MIOHVY0HjlXF8gPmNfSmiGDVsA/edit?usp=sharing"
-NOME_ABA = "REGULATEA" # Ajustado para o nome da sua aba do print anterior
+# CONFIGURAÇÕES DA SUA AUTOMAÇÃO
+CHAVE_API = "AIzaSy..."  # Substitua pela sua chave secreta do Google Cloud
+LINK_OU_ID_PLANILHA = "https://google.com..."  # Cole o link da sua planilha aqui
+
+# Lista exata com o nome das 4 abas que você criou na planilha
+ABAS_PROJETO = [
+    "REGULAÇÃO SENSORIAL",
+    "PROPRIOCEPÇÃO VESTIBULAR",
+    "PEDAGOGICO E COGNITIVO",
+    "POSTURA E MOTRICIDADE"
+]
 
 def extrair_id_valido(valor):
     if "://google.com" in valor:
@@ -19,47 +26,75 @@ def extrair_id_valido(valor):
 def baixar_dados_planilha():
     id_planilha_limpo = extrair_id_valido(LINK_OU_ID_PLANILHA)
     chave_limpa = CHAVE_API.strip()
-    aba_codificada = urllib.parse.quote(NOME_ABA.strip())
     
-    url = f"https://googleapis.com{id_planilha_limpo}/values/{aba_codificada}?key={chave_limpa}"
+    produtos_consolidados = []
     
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req) as response:
-            dados = json.loads(response.read().decode('utf-8'))
-            linhas = dados.get('values', [])
-            
-            if not linhas or len(linhas) <= 1:
-                print("Planilha vazia ou sem dados cadastrados.")
-                return
-            
-            produtos_lista = []
-            
-            # Varre a planilha pulando a linha 1 (Título) e linha 2 (Cabeçalho)
-            for linha in linhas[2:]:
-                # Evita ler linhas totalmente vazias ou IDs sem link cadastrado
-                if len(linha) < 4 or not linha[2]: 
+    # O robô agora varre cada uma das abas sequencialmente
+    for nome_aba in ABAS_PROJETO:
+        print(f"Buscando dados da aba: {nome_aba}...")
+        aba_codificada = urllib.parse.quote(nome_aba.strip())
+        
+        url = f"https://googleapis.com{id_planilha_limpo}/values/{aba_codificada}?key={chave_limpa}"
+        
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req) as response:
+                dados = json.loads(response.read().decode('utf-8'))
+                linhas = dados.get('values', [])
+                
+                # Verifica se a aba tem o cabeçalho e pelo menos 1 produto cadastrado
+                if not linhas or len(linhas) <= 1:
+                    print(f"Aba {nome_aba} está vazia ou sem produtos cadastrados.")
                     continue
                 
-                # Se você criar a coluna de Imagem no futuro, o script coleta ela na posição 8
-                url_img = linha[8] if len(linha) > 8 and linha[8] else "img/placeholder.png"
+                # Localiza a posição de cada coluna dinamicamente para evitar quebras por espaços extras
+                cabecalho = [col.strip().upper() for col in linhas[0]]
                 
-                produto = {
-                    "id": linha[0],                             # ID
-                    "categoria": linha[1],                      # CATEGORIA
-                    "link_afiliado": linha[2],                  # LINK PROD
-                    "preco_atual": linha[3],                    # PREÇO PROMO
-                    "preco_antigo": linha[4] if linha[4] else "",# PREÇO REAL
-                    "url_imagem": url_img                       # URL extraída
-                }
-                produtos_lista.append(produto)
-            
+                idx_id = cabecalho.index("ID") if "ID" in cabecalho else 0
+                idx_categoria = cabecalho.index("CATEGORIA") if "CATEGORIA" in cabecalho else 1
+                idx_link = cabecalho.index("URL_LINK_PROD") if "URL_LINK_PROD" in cabecalho else 2
+                idx_promo = cabecalho.index("PREÇO PROMO") if "PREÇO PROMO" in cabecalho else 3
+                idx_real = cabecalho.index("PREÇO REAL") if "PREÇO REAL" in cabecalho else 4
+                idx_img = cabecalho.index("URL_IMG") if "URL_IMG" in cabecalho else 6
+                
+                for linha in linhas[1:]:
+                    # Ignora linhas em branco ou registros com colunas faltantes essenciais
+                    if not linha or len(linha) <= max(idx_id, idx_categoria):
+                        continue
+                    
+                    # Garante que não vai quebrar se a linha não tiver dados até o fim do preenchimento
+                    while len(linha) < len(cabecalho):
+                        linha.append("")
+                        
+                    # Só adiciona o produto se houver um link cadastrado na linha
+                    link_afiliado = linha[idx_link].strip() if idx_link < len(linha) else ""
+                    if not link_afiliado or link_afiliado == "":
+                        continue
+                    
+                    produto = {
+                        "id": linha[idx_id].strip() if idx_id < len(linha) else "",
+                        "categoria": linha[idx_categoria].strip().upper() if idx_categoria < len(linha) else "",
+                        "link_afiliado": link_afiliado,
+                        "preco_atual": linha[idx_promo].strip() if idx_promo < len(linha) else "0.00",
+                        "preco_antigo": linha[idx_real].strip() if idx_real < len(linha) else "",
+                        "url_imagem": linha[idx_img].strip() if idx_img < len(linha) else ""
+                    }
+                    produtos_consolidados.append(produto)
+                    
+        except Exception as e:
+            print(f"⚠️ Não foi possível ler a aba {nome_aba}: {e}")
+            continue
+
+    # Salva todos os produtos encontrados de todas as abas no arquivo JSON do site
+    if produtos_consolidados:
+        try:
             with open("produtos.json", "w", encoding="utf-8") as f:
-                json.dump(produtos_lista, f, ensure_ascii=False, indent=2)
-            print("\n✅ SUCESSO! O arquivo produtos.json foi gerado com as colunas em português!")
-            
-    except Exception as e:
-        print(f"\n❌ Erro crítico no processamento: {e}")
+                json.dump(produtos_consolidados, f, ensure_ascii=False, indent=2)
+            print(f"\n✅ SUCESSO! O arquivo produtos.json foi gerado com {len(produtos_consolidados)} produtos de todas as abas!")
+        except Exception as e:
+            print(f"❌ Erro ao gravar o arquivo de produtos: {e}")
+    else:
+        print("\n⚠️ Nenhum produto válido com link de afiliado foi encontrado em nenhuma das abas.")
 
 if __name__ == "__main__":
     baixar_dados_planilha()
