@@ -2,14 +2,14 @@ name: Atualizar Vitrine de Achadinhos
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Executa de forma automatizada todos os dias à meia-noite
-  workflow_dispatch:     # Permite que você clique em um botão para atualizar na hora que quiser
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Permite que o robô altere o arquivo produtos.json no site
+      contents: write
 
     steps:
     - name: Baixar codigo do repositorio
@@ -30,4 +30,4 @@ jobs:
         git config --global user.name "Robo de Atualizacao"
         git config --global user.email "actions@github.com"
         git add produtos.json
-        git diff --quiet && git diff --cached --quiet || (git commit -m "Vitrine atualizada automaticamente via Planilha" && git push)
+        git diff --quiet && git diff --cached --quiet || (git commit -m "Vitrine updated automatically via Sheets" && git push origin main)
