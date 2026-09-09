@@ -5,8 +5,8 @@ import urllib.parse
 import re
 
 # CONFIGURAÇÕES DA SUA AUTOMAÇÃO
-CHAVE_API = "AIzaSy..."  # Substitua pela sua chave secreta do Google Cloud
-LINK_OU_ID_PLANILHA = "https://google.com..."  # Cole o link da sua planilha aqui
+CHAVE_API = "AIzaSyCOw0sef-Alux79-MuoQtH6oM525GVOC6g"  # Substitua pela sua chave secreta do Google Cloud
+LINK_OU_ID_PLANILHA = "https://docs.google.com/spreadsheets/d/1l_-h10C6XhYJ7wlM0MIOHVY0HjlXF8gPmNfSmiGDVsA/edit?usp=sharing"  # Cole o link da sua planilha aqui
 
 # Lista exata com o nome das 4 abas que você criou na planilha
 ABAS_PROJETO = [
