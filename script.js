@@ -83,3 +83,21 @@ async function carregarVitrineTerapeutica() {
         console.error("Erro no carregamento visual da vitrine:", error);
     }
 }
+// ATIVAÇÃO DE ROLAGEM SUAVE PARA OS LINKS INTERNOS DO MENU (#)
+document.addEventListener("click", (e) => {
+    const targetLink = e.target.closest("a");
+    if (!targetLink) return;
+
+    const href = targetLink.getAttribute("href");
+    if (href && href.startsWith("#") && href.length > 1) {
+        e.preventDefault(); // Impede o navegador de recarregar a página
+        const targetSection = document.getElementById(href.substring(1));
+        
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: "smooth", // Faz o deslizamento suave e elegante
+                block: "start"
+            });
+        }
+    }
+});

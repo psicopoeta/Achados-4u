@@ -21,36 +21,41 @@
         <div class="container">
             <ul class="nav-principal">
                 <li><a href="index.html">Início</a></li>
+<!-- BOTÃO CATEGORIAS ATUALIZADO COM DROPDOWN REAL -->
 <li class="dropdown">
-    <a href="#" class="dropdown-toggle">Categorias</a>
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
     <ul class="dropdown-menu">
         <!-- BLOCO 1: REGULAÇÃO SENSORIAL -->
-        <li><a href="#macro-regulacao" style="font-weight: bold; color: #2c3e50;">🧠 Regulação Sensorial</a></li>
-        <li><a href="#sub-mordedores" style="padding-left: 20px;">🦷 Mordedores</a></li>
-        <li><a href="#sub-spinners" style="padding-left: 20px;">🌀 Spinners</a></li>
-        <li><a href="#sub-abafador" style="padding-left: 20px;">🎧 Abafadores</a></li>
-        <li><a href="#sub-fidgets" style="padding-left: 20px;">🕹️ Widgets / Fidgets</a></li>
-        <li><a href="#sub-squishy" style="padding-left: 20px;">🎈 Squishy / Bolinhas</a></li>
-        <li><a href="#sub-tatil" style="padding-left: 20px;">🧱 Tátil / Sensorial</a></li>
+        <li class="dropdown-header" style="font-weight: bold; color: #2c3e50; padding: 5px 20px;">🧠 REGULAÇÃO SENSORIAL</li>
+        <li><a href="#sub-mordedores">🦷 Mordedores</a></li>
+        <li><a href="#sub-spinners">🌀 Spinners</a></li>
+        <li><a href="#sub-abafador">🎧 Abafadores</a></li>
+        <li><a href="#sub-fidgets">🕹️ Widgets / Fidgets</a></li>
+        <li><a href="#sub-squishy">🎈 Squishy / Bolinhas</a></li>
+        <li><a href="#sub-tatil">🧱 Tátil / Sensorial</a></li>
         
-        <li class="dropdown-divider" style="border-top: 1px solid #ddd; margin: 5px 0;"></li>
+        <li role="separator" class="divider" style="border-top: 1px solid #eee; margin: 5px 0;"></li>
 
         <!-- BLOCO 2: PROPRIOCEPÇÃO E VESTIBULAR -->
-        <li><a href="#macro-propriocepcao" style="font-weight: bold; color: #2c3e50;">🏃‍♂️ Propriocepção / Vestibular</a></li>
-        <li><a href="#sub-equilibrio" style="padding-left: 20px;">⚖️ Equilíbrio</a></li>
-        <li><a href="#sub-balanco" style="padding-left: 20px;">🪁 Balanço</a></li>
-        <li><a href="#sub-bolas" style="padding-left: 20px;">🟡 Bolas</a></li>
-        <li><a href="#sub-ponderado" style="padding-left: 20px;">🧥 Manta / Colete Ponderado</a></li>
-        <li><a href="#sub-tensores" style="padding-left: 20px;">💪 Tensores</a></li>
+        <li class="dropdown-header" style="font-weight: bold; color: #2c3e50; padding: 5px 20px;">跑 REABILITAÇÃO E CONSCIÊNCIA</li>
+        <li><a href="#sub-equilibrio">⚖️ Equilíbrio</a></li>
+        <li><a href="#sub-balanco">🪁 Balanço</a></li>
+        <li><a href="#sub-bolas">🟡 Bolas</a></li>
+        <li><a href="#sub-ponderado">🧥 Manta / Colete Ponderado</a></li>
+        <li><a href="#sub-tensores">💪 Tensores</a></li>
 
-        <li class="dropdown-divider" style="border-top: 1px solid #ddd; margin: 5px 0;"></li>
+        <li role="separator" class="divider" style="border-top: 1px solid #eee; margin: 5px 0;"></li>
 
-        <!-- BLOCO 3 E 4: FUTURAS CATEGORIAS -->
-        <li><a href="#macro-pedagogico" style="font-weight: bold; color: #2c3e50;">🧩 Pedagógico e Cognitivo</a></li>
-        <li><a href="#macro-postura" style="font-weight: bold; color: #2c3e50;">🪑 Postura e Motricidade</a></li>
+        <!-- BLOCOS 3 E 4 -->
+        <li class="dropdown-header" style="font-weight: bold; color: #2c3e50; padding: 5px 20px;">🧩 PEDAGÓGICO E COGNITIVO</li>
+        <li><a href="#macro-pedagogico">🔍 Ver Itens Cognitivos</a></li>
+        
+        <li role="separator" class="divider" style="border-top: 1px solid #eee; margin: 5px 0;"></li>
+        
+        <li class="dropdown-header" style="font-weight: bold; color: #2c3e50; padding: 5px 20px;">🪑 POSTURA E MOTRICIDADE</li>
+        <li><a href="#macro-postura">🪵 Ver Itens de Motricidade</a></li>
     </ul>
 </li>
-
 
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -66,96 +71,69 @@
             <p>Nossos produtos são selecionados com cuidado para oferecer as melhores opções disponíveis.</p>
         </section>
 
-       <!-- CORPO DA VITRINE: ESSAS TAGS SÃO OS ALVOS DA ROLAGEM SUAVE DO MENU -->
-<main class="conteudo-principal">
+        <!-- SEÇÃO PRINCIPAL DA VITRINE -->
+<section id="secao-categorias" class="container-vitrine">
 
     <!-- BLOCK 1: REGULAÇÃO SENSORIAL -->
-    <section id="macro-regulacao" class="bloco-macro-terapeutico">
+    <div id="macro-regulacao" class="bloco-macro">
         <h2>🧠 Regulação Sensorial</h2>
-        <p class="descricao-bloco">Produtos focados na modulação e organização dos estímulos sensoriais.</p>
         
-        <div class="sub-categoria-box">
-            <h3 id="sub-mordedores">🦷 Mordedores</h3>
-            <div id="container-mordedores" class="grade-produtos-reais"></div>
-        </div>
+        <h3>🦷 Mordedores</h3>
+        <div id="sub-mordedores" class="grade-produtos"></div>
 
-        <div class="sub-categoria-box">
-            <h3 id="sub-spinners">🌀 Spinners</h3>
-            <div id="container-spinners" class="grade-produtos-reais"></div>
-        </div>
+        <h3>🌀 Spinners</h3>
+        <div id="sub-spinners" class="grade-produtos"></div>
 
-        <div class="sub-categoria-box">
-            <h3 id="sub-abafador">🎧 Abafadores</h3>
-            <div id="container-abafador" class="grade-produtos-reais"></div>
-        </div>
+        <h3>🎧 Abafadores</h3>
+        <div id="sub-abafador" class="grade-produtos"></div>
 
-        <div class="sub-categoria-box">
-            <h3 id="sub-fidgets">🕹️ Widgets / Fidgets</h3>
-            <div id="container-fidgets" class="grade-produtos-reais"></div>
-        </div>
+        <h3>🕹️ Widgets / Fidgets</h3>
+        <div id="sub-fidgets" class="grade-produtos"></div>
 
-        <div class="sub-categoria-box">
-            <h3 id="sub-squishy">🎈 Squishy / Bolinhas</h3>
-            <div id="container-squishy" class="grade-produtos-reais"></div>
-        </div>
+        <h3>🎈 Squishy / Bolinhas</h3>
+        <div id="sub-squishy" class="grade-produtos"></div>
 
-        <div class="sub-categoria-box">
-            <h3 id="sub-tatil">🧱 Tátil / Sensorial</h3>
-            <div id="container-tatil" class="grade-produtos-reais"></div>
-        </div>
-    </section>
+        <h3>🧱 Tátil / Sensorial</h3>
+        <div id="sub-tatil" class="grade-produtos"></div>
+    </div>
 
     <!-- BLOCK 2: PROPRIOCEPÇÃO E VESTIBULAR -->
-    <section id="macro-propriocepcao" class="bloco-macro-terapeutico">
-        <h2>跑 Reabilitação e Consciência Corporal</h2>
-        <p class="descricao-bloco">Estímulos para o sistema proprioceptivo e vestibular (equilíbrio e movimento).</p>
+    <div id="macro-propriocepcao" class="bloco-macro">
+        <h2>🏃‍♂️ Propriocepção e Vestibular</h2>
         
-        <div class="sub-categoria-box">
-            <h3 id="sub-equilibrio">⚖️ Equilíbrio</h3>
-            <div id="container-equilibrio" class="grade-produtos-reais"></div>
-        </div>
+        <h3>⚖️ Equilíbrio</h3>
+        <div id="sub-equilibrio" class="grade-produtos"></div>
 
-        <div class="sub-categoria-box">
-            <h3 id="sub-balanco">🪁 Balanço</h3>
-            <div id="container-balanco" class="grade-produtos-reais"></div>
-        </div>
+        <h3>🪁 Balanço</h3>
+        <div id="sub-balanco" class="grade-produtos"></div>
 
-        <div class="sub-categoria-box">
-            <h3 id="sub-bolas">🟡 Bolas</h3>
-            <div id="container-bolas" class="grade-produtos-reais"></div>
-        </div>
+        <h3>🟡 Bolas</h3>
+        <div id="sub-bolas" class="grade-produtos"></div>
 
-        <div class="sub-categoria-box">
-            <h3 id="sub-ponderado">🧥 Manta / Colete Ponderado</h3>
-            <div id="container-ponderado" class="grade-produtos-reais"></div>
-        </div>
+        <h3>🧥 Manta / Colete Ponderado</h3>
+        <div id="sub-ponderado" class="grade-produtos"></div>
 
-        <div class="sub-categoria-box">
-            <h3 id="sub-tensores">💪 Tensores</h3>
-            <div id="container-tensores" class="grade-produtos-reais"></div>
-        </div>
-    </section>
+        <h3>💪 Tensores</h3>
+        <div id="sub-tensores" class="grade-produtos"></div>
+    </div>
 
     <!-- BLOCK 3: PEDAGÓGICO E COGNITIVO -->
-    <section id="macro-pedagogico" class="bloco-macro-terapeutico">
+    <div id="macro-pedagogico" class="bloco-macro">
         <h2>🧩 Pedagógico e Cognitivo</h2>
-        <p class="descricao-bloco">Estímulos cognitivos, memória, lógica e alfabetização.</p>
-        <div id="container-pedagogico" class="grade-produtos-reais">
-            <!-- Os itens dessa aba entrarão aqui automaticamente quando você cadastrar -->
+        <div id="sub-pedagogico" class="grade-produtos">
+            <!-- Preparado para receber os futuros itens -->
         </div>
-    </section>
+    </div>
 
     <!-- BLOCK 4: POSTURA E MOTRICIDADE -->
-    <section id="macro-postura" class="bloco-macro-terapeutico">
+    <div id="macro-postura" class="bloco-macro">
         <h2>🪑 Postura e Motricidade</h2>
-        <p class="descricao-bloco">Suportes posturais, ergonomia e desenvolvimento da motricidade fina e grossa.</p>
-        <div id="container-postura" class="grade-produtos-reais">
-            <!-- Os itens dessa aba entrarão aqui automaticamente quando você cadastrar -->
+        <div id="sub-postura" class="grade-produtos">
+            <!-- Preparado para receber os futuros itens -->
         </div>
-    </section>
+    </div>
 
-</main>
-
+</section>
 
         <!-- Seção Sobre -->
         <section id="sobre" class="sobre">
