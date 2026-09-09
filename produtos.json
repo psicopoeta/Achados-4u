@@ -1,10 +1,245 @@
 [
   {
+    "id": "id",
+    "categoria": "categoria",
+    "nome": "nome",
+    "link_afiliado": "url_link_prod",
+    "preco_atual": "preco_promo",
+    "preco_antigo": "preco_real",
+    "url_imagem": "url_foto"
+  },
+  {
     "id": "1",
-    "nome": "Produto Exemplo Mercado Livre",
-    "preco_atual": "99.90",
-    "preco_antigo": "149.90",
-    "link_afiliado": "https://mercadolivre.com",
-    "url_img": "https://mlstatic.com"
+    "categoria": "MORDEDOR",
+    "nome": "kit mordedor bebe",
+    "link_afiliado": "https://meli.la/2AYGQbH",
+    "preco_atual": "R$ 24,15",
+    "preco_antigo": "R$ 40,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_636014-MLA114307309560_082026-F.webp"
+  },
+  {
+    "id": "2",
+    "categoria": "MORDEDOR",
+    "nome": "",
+    "link_afiliado": "https://meli.la/19pwj1W",
+    "preco_atual": "R$ 22,17",
+    "preco_antigo": "R$ 22,17",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_892466-MLA100081687875_122025-F.webp"
+  },
+  {
+    "id": "3",
+    "categoria": "MORDEDOR",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1a2k3Zx",
+    "preco_atual": "R$ 22,90",
+    "preco_antigo": "R$ 32,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_889035-MLB113668430632_072026-F-celular-infantil-musical-brinquedo-mordedor-beb-educativo.webp"
+  },
+  {
+    "id": "4",
+    "categoria": "SPINNER",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2CmMwhv",
+    "preco_atual": "R$ 26,80",
+    "preco_antigo": "R$ 36,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_849993-MLB111765093037_052026-F-kit-3-spinner-brinquedo-bebe-gira-c-ventosa-sensorial-banho.webp"
+  },
+  {
+    "id": "5",
+    "categoria": "SPINNER",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1jqngoZ",
+    "preco_atual": "R$ 22,93",
+    "preco_antigo": "R$ 49,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_977941-MLB112931622389_062026-F-bola-voadora-spinner-led-drone-brinquedo-boomerang-flutuante.webp"
+  },
+  {
+    "id": "6",
+    "categoria": "SPINNER",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1zSnuWx",
+    "preco_atual": "R$ 33,85",
+    "preco_antigo": "R$ 33,85",
+    "url_imagem": ""
+  },
+  {
+    "id": "7",
+    "categoria": "SPINNER",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2vab7uK",
+    "preco_atual": "R$ 39,80",
+    "preco_antigo": "R$ 46,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_604778-MLB112500152172_062026-F-fidget-hand-spinners-metal-anti-estresse-infantil-adulto-m39.webp"
+  },
+  {
+    "id": "8",
+    "categoria": "ABAFADOR",
+    "nome": "",
+    "link_afiliado": "https://meli.la/25c2iEP",
+    "preco_atual": "R$ 62,97",
+    "preco_antigo": "R$ 209,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_627763-MLB114984521423_072026-F-fone-abafador-de-ruido-protetor-atirador-autista-tdah.webp"
+  },
+  {
+    "id": "9",
+    "categoria": "ABAFADOR",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1yxkc4k",
+    "preco_atual": "R$ 34,91",
+    "preco_antigo": "R$ 78,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_753043-MLB113011999410_072026-F-abafador-ruido-infantil-protetor-auricular-autismo-ajustavel.webp"
+  },
+  {
+    "id": "10",
+    "categoria": "ABAFADOR",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2eG3ddh",
+    "preco_atual": "R$ 74,04",
+    "preco_antigo": "R$ 199,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_715848-MLB115344498023_072026-F-fone-abafador-de-ruido-32db-protetor-atirador-autista-tdah.webp"
+  },
+  {
+    "id": "11",
+    "categoria": "WIDGETS/FIDGETS",
+    "nome": "",
+    "link_afiliado": "https://meli.la/32CUckq",
+    "preco_atual": "R$ 24,15",
+    "preco_antigo": "R$ 40,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_667083-MLA114768271275_072026-F.webp"
+  },
+  {
+    "id": "12",
+    "categoria": "WIDGETS/FIDGETS",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1YCgRvv",
+    "preco_atual": "R$ 20,26",
+    "preco_antigo": "R$ 34,49",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_856905-MLA92013218535_092025-F.webp"
+  },
+  {
+    "id": "13",
+    "categoria": "WIDGETS/FIDGETS",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2hyRn1h",
+    "preco_atual": "R$ 22,00",
+    "preco_antigo": "R$ 59,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_950725-MLA113565986101_062026-F.webp"
+  },
+  {
+    "id": "14",
+    "categoria": "WIDGETS/FIDGETS",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2HZehW9",
+    "preco_atual": "R$ 48,90",
+    "preco_antigo": "R$ 48,90",
+    "url_imagem": ""
+  },
+  {
+    "id": "15",
+    "categoria": "WIDGETS/FIDGETS",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1W9CWs3",
+    "preco_atual": "R$ 49,90",
+    "preco_antigo": "R$ 49,90",
+    "url_imagem": ""
+  },
+  {
+    "id": "16",
+    "categoria": "WIDGETS/FIDGETS",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2689Hry",
+    "preco_atual": "R$ 89,17",
+    "preco_antigo": "R$ 98,80",
+    "url_imagem": ""
+  },
+  {
+    "id": "17",
+    "categoria": "WIDGETS/FIDGETS",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1AzYJqJ",
+    "preco_atual": "R$ 29,90",
+    "preco_antigo": "R$ 38,99",
+    "url_imagem": ""
+  },
+  {
+    "id": "18",
+    "categoria": "SQUISHY/BOLINHAS",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1BfPmMo",
+    "preco_atual": "R$ 26,09",
+    "preco_antigo": "R$ 64,20",
+    "url_imagem": ""
+  },
+  {
+    "id": "19",
+    "categoria": "SQUISHY/BOLINHAS",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2sCY2LJ",
+    "preco_atual": "R$ 27,22",
+    "preco_antigo": "R$ 45,37",
+    "url_imagem": ""
+  },
+  {
+    "id": "20",
+    "categoria": "SQUISHY/BOLINHAS",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1o78WMH",
+    "preco_atual": "R$ 59,90",
+    "preco_antigo": "R$ 199,90",
+    "url_imagem": ""
+  },
+  {
+    "id": "21",
+    "categoria": "TÁTIL SENSORIAL",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1qEnhY9",
+    "preco_atual": "R$ 23,70",
+    "preco_antigo": "R$ 24,99",
+    "url_imagem": ""
+  },
+  {
+    "id": "22",
+    "categoria": "TÁTIL SENSORIAL",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1dAq12o",
+    "preco_atual": "R$ 64,17",
+    "preco_antigo": "R$ 69,00",
+    "url_imagem": ""
+  },
+  {
+    "id": "23",
+    "categoria": "TÁTIL SENSORIAL",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2qLDeif",
+    "preco_atual": "R$ 64,69",
+    "preco_antigo": "R$ 78,90",
+    "url_imagem": ""
+  },
+  {
+    "id": "24",
+    "categoria": "TÁTIL SENSORIAL",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1HRW262",
+    "preco_atual": "R$ 32,81",
+    "preco_antigo": "R$ 49,00",
+    "url_imagem": ""
+  },
+  {
+    "id": "25",
+    "categoria": "TÁTIL SENSORIAL",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1XQJNbe",
+    "preco_atual": "R$ 83,51",
+    "preco_antigo": "R$ 129,00",
+    "url_imagem": ""
+  },
+  {
+    "id": "ID",
+    "categoria": "CATEGORIA",
+    "nome": "LINK PROD",
+    "link_afiliado": "PREÇO  PROMO",
+    "preco_atual": "% COMISSÃO",
+    "preco_antigo": "MIDIA",
+    "url_imagem": "PREÇO REAL"
   }
 ]
