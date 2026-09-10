@@ -34,11 +34,4 @@ jobs:
         git commit -m "Vitrine updated automatically via Sheets" || true
         git push origin main || true
 
-    - name: Authenticate to Google Cloud
-  run: |
-    echo "$GOOGLE_CREDENTIALS" > gcp-key.json
-  env:
-    GOOGLE_CREDENTIALS: ${{ secrets.GCP_SA_KEY }}
-
-# No seu script, aponte a autenticação para o arquivo 'gcp-key.json'
- 
+  
