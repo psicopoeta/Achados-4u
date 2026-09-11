@@ -31,7 +31,7 @@ with:
 
 python-version: '3.12'
 
-- name: Rodar script
+name: Rodar script
 
 env:
 
@@ -39,7 +39,7 @@ GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
 run: python atualizar.py
 
-- name: Commit do produtos.json
+name: Commit do produtos.json
 
 run: |
 
