@@ -1,35 +1,53 @@
 name: Atualizar Vitrine de Achadinhos
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+
+schedule:
+
+- cron: '0 */6 * * *'
+
+workflow_dispatch:
+
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
-    steps:
-    - name: Baixar codigo do repositorio
-      uses: actions/checkout@v4
+atualizar:
 
-    - name: Configurar o Python no Servidor
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
+runs-on: ubuntu-latest
 
-    - name: Executar Script de Integracao
-      env:
-        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-      run: python atualizar.py
+permissions:
 
-    - name: Salvar e Enviar Atualizacoes para o Site
-      run: |
-        git config --global user.name "Robo de Atualizacao"
-        git config --global user.email "actions@github.com"
-        git add produtos.json
+contents: write
+
+steps:
+
+- uses: actions/checkout@v4
+
+- uses: actions/setup-python@v5
+
+with:
+
+python-version: '3.12'
+
+- name: Rodar script
+
+env:
+
+GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+
+run: python atualizar.py
+
+- name: Commit do produtos.json
+
+run: |
+
+git config user.name "github-actions[bot]"
+
+git config user.email "github-actions[bot]@users.noreply.github.com"
+
+git add produtos.json
+
+git commit -m "chore: atualiza produtos.json" 
         # O '|| true' impede que o GitHub Actions trave caso nao haja alteracoes na planilha
         git commit -m "Vitrine updated automatically via Sheets" || true
         git push origin main || true
