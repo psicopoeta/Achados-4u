@@ -8,6 +8,8 @@ schedule:
 
 workflow_dispatch:
 
+repository_dispatch:
+    types: [planilha_atualizada] 
 
 jobs:
 
