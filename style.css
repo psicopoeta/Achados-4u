@@ -147,6 +147,10 @@ header .container {
 .dropdown-menu a:hover {
     background-color: var(--cor-primaria);
 }
+/* Menu dropdown aberto (desktop e mobile) */
+.dropdown-menu.active {
+    display: block;
+}
 
 /* ===== Conteúdo Principal ===== */
 main {
