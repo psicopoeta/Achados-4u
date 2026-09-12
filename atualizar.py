@@ -36,10 +36,22 @@ def extrair_id_valido(valor):
     return m.group(1) if m else valor.strip()
 
 def achar_indice(cabecalho, possiveis, fallback):
+    cabecalho_normalizado = [
+        normalizar_nome_coluna(col)
+        for col in cabecalho
+    ]
+
     for nome in possiveis:
-        if nome in cabecalho:
-            return cabecalho.index(nome)
-    print(f"   ⚠️ Coluna não encontrada, usando posição {fallback}")
+        nome_normalizado = normalizar_nome_coluna(nome)
+
+        if nome_normalizado in cabecalho_normalizado:
+            return cabecalho_normalizado.index(nome_normalizado)
+
+    print(
+        f"   ⚠️ Coluna não encontrada para "
+        f"{possiveis}, usando posição {fallback}"
+    )
+
     return fallback
 
 
