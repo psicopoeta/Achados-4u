@@ -16,7 +16,7 @@ ABAS_PROJETO = [
     "POSTURA E MOTRICIDADE"
 ]
 
-# Nomes de coluna aceitos por campo (suas abas usam nomes diferentes)
+# Nomes de coluna aceitos por campo
 COLUNAS = {
     "id":            ["ID"],
     "categoria":     ["CATEGORIA"],
@@ -27,9 +27,26 @@ COLUNAS = {
     "url_imagem":    ["URL_IMG", "URL_FOTO", "FOTO", "MIDIA", "MÍDIA", "IMAGEM"]
 }
 
-# Fallback posicional caso o cabeçalho não seja reconhecido
-FALLBACK = {"id": 0, "categoria": 1, "nome": -1, "link_afiliado": 2,
-            "preco_atual": 3, "preco_antigo": 4, "url_imagem": 6}
+# Fallback posicional corrigido com base na estrutura real da planilha
+FALLBACK = {
+    "id": 0, 
+    "categoria": 1, 
+    "nome": 2, 
+    "link_afiliado": 3,
+    "url_imagem": 4,
+    "preco_atual": 5, 
+    "preco_antigo": 6
+}
+
+def normalizar_nome_coluna(texto):
+    """Remove acentos, espaços extras e padroniza em maiúsculas."""
+    if not texto:
+        return ""
+    texto = re.sub(r"\s+", " ", texto).strip().upper()
+    return "".join(
+        c for c in unicodedata.normalize('NFD', texto)
+        if unicodedata.category(c) != 'Mn'
+    )
 
 def extrair_id_valido(valor):
     m = re.search(r'/d/([a-zA-Z0-9-_]+)', valor)
@@ -51,13 +68,10 @@ def achar_indice(cabecalho, possiveis, fallback):
         f"   ⚠️ Coluna não encontrada para "
         f"{possiveis}, usando posição {fallback}"
     )
-
     return fallback
-
 
 def celula(linha, i):
     return linha[i].strip() if 0 <= i < len(linha) else ""
-
 
 def baixar_dados_planilha():
     chave = CHAVE_API.strip()
@@ -98,10 +112,7 @@ def baixar_dados_planilha():
             print("   Aba vazia.")
             continue
 
-        cabecalho = [
-            re.sub(r"\s+", " ", col).strip().upper()
-            for col in linhas[0]
-        ]
+        cabecalho = linhas[0]
 
         idx = {
             campo: achar_indice(
@@ -113,67 +124,35 @@ def baixar_dados_planilha():
         }
 
         for linha in linhas[1:]:
-            linha = list(linha) + [""] * (
-                len(cabecalho) - len(linha)
-            )
+            # Garante que a linha tenha colunas suficientes para não dar IndexError
+            tamanho_maximo = max(idx.values()) + 1
+            if len(linha) < tamanho_maximo:
+                linha = list(linha) + [""] * (tamanho_maximo - len(linha))
 
-            link = celula(
-                linha,
-                idx["link_afiliado"]
-            )
+            link = celula(linha, idx["link_afiliado"])
 
-            # Só entra produto com link real —
-            # elimina cabeçalhos repetidos e linhas vazias
+            # Valida se a célula realmente contém um link válido
             if not re.match(r"^https?://", link, re.IGNORECASE):
                 continue
 
             produtos.append({
                 "id": celula(linha, idx["id"]),
-                "categoria": celula(
-                    linha,
-                    idx["categoria"]
-                ).upper(),
-                "nome": celula(
-                    linha,
-                    idx["nome"]
-                ),
+                "categoria": celula(linha, idx["categoria"]).upper(),
+                "nome": celula(linha, idx["nome"]),
                 "link_afiliado": link,
-                "preco_atual": celula(
-                    linha,
-                    idx["preco_atual"]
-                ),
-                "preco_antigo": celula(
-                    linha,
-                    idx["preco_antigo"]
-                ),
-                "url_imagem": celula(
-                    linha,
-                    idx["url_imagem"]
-                )
+                "preco_atual": celula(linha, idx["preco_atual"]),
+                "preco_antigo": celula(linha, idx["preco_antigo"]),
+                "url_imagem": celula(linha, idx["url_imagem"])
             })
 
     if produtos:
-        with open(
-            "produtos.json",
-            "w",
-            encoding="utf-8"
-        ) as f:
-            json.dump(
-                produtos,
-                f,
-                ensure_ascii=False,
-                indent=2
-            )
-
-        print(
-            f"\n✅ SUCESSO! produtos.json gerado "
-            f"com {len(produtos)} produtos!"
-        )
-
+        with open("produtos.json", "w", encoding="utf-8") as f:
+            json.dump(produtos, f, ensure_ascii=False, indent=2)
+        print(f"\n✅ SUCESSO! produtos.json gerado com {len(produtos)} produtos!")
     else:
         print("\n⚠️ Nenhum produto válido encontrado.")
         sys.exit(1)
 
-
 if __name__ == "__main__":
     baixar_dados_planilha()
+
