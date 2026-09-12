@@ -45,9 +45,9 @@ def celula(linha, i):
 
 def baixar_dados_planilha():
     chave = CHAVE_API.strip()
-    if not chave:
+        if not chave:
         print("❌ Defina a variável de ambiente GOOGLE_API_KEY.")
-        return
+        sys.exit(1)
 
     id_planilha = extrair_id_valido(LINK_OU_ID_PLANILHA)
     produtos = []
@@ -96,8 +96,9 @@ def baixar_dados_planilha():
         with open("produtos.json", "w", encoding="utf-8") as f:
             json.dump(produtos, f, ensure_ascii=False, indent=2)
         print(f"\n✅ SUCESSO! produtos.json gerado com {len(produtos)} produtos!")
-    else:
+        else:
         print("\n⚠️ Nenhum produto válido encontrado.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     baixar_dados_planilha()
