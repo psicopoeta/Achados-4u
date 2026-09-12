@@ -40,12 +40,15 @@ def achar_indice(cabecalho, possiveis, fallback):
     print(f"   ⚠️ Coluna não encontrada, usando posição {fallback}")
     return fallback
 
+
 def celula(linha, i):
     return linha[i].strip() if 0 <= i < len(linha) else ""
 
+
 def baixar_dados_planilha():
     chave = CHAVE_API.strip()
-        if not chave:
+
+    if not chave:
         print("❌ Defina a variável de ambiente GOOGLE_API_KEY.")
         sys.exit(1)
 
@@ -54,51 +57,109 @@ def baixar_dados_planilha():
 
     for nome_aba in ABAS_PROJETO:
         print(f"Buscando dados da aba: {nome_aba}...")
+
         aba_codificada = urllib.parse.quote(nome_aba.strip())
-        url = f"https://sheets.googleapis.com/v4/spreadsheets/{id_planilha}/values/{aba_codificada}?key={chave}"
+
+        url = (
+            f"https://sheets.googleapis.com/v4/spreadsheets/"
+            f"{id_planilha}/values/{aba_codificada}?key={chave}"
+        )
 
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0"}
+            )
+
             with urllib.request.urlopen(req) as resp:
                 dados = json.loads(resp.read().decode("utf-8"))
+
             linhas = dados.get("values", [])
+
         except Exception as e:
             print(f"⚠️ Não foi possível ler a aba {nome_aba}: {e}")
             continue
 
         if len(linhas) <= 1:
-            print(f"   Aba vazia.")
+            print("   Aba vazia.")
             continue
 
-        cabecalho = [re.sub(r"\s+", " ", col).strip().upper() for col in linhas[0]]
-        idx = {campo: achar_indice(cabecalho, nomes, FALLBACK[campo])
-               for campo, nomes in COLUNAS.items()}
+        cabecalho = [
+            re.sub(r"\s+", " ", col).strip().upper()
+            for col in linhas[0]
+        ]
+
+        idx = {
+            campo: achar_indice(
+                cabecalho,
+                nomes,
+                FALLBACK[campo]
+            )
+            for campo, nomes in COLUNAS.items()
+        }
 
         for linha in linhas[1:]:
-            linha = list(linha) + [""] * (len(cabecalho) - len(linha))
-            link = celula(linha, idx["link_afiliado"])
+            linha = list(linha) + [""] * (
+                len(cabecalho) - len(linha)
+            )
 
-            # Só entra produto com link real — elimina cabeçalhos repetidos e linhas vazias
+            link = celula(
+                linha,
+                idx["link_afiliado"]
+            )
+
+            # Só entra produto com link real —
+            # elimina cabeçalhos repetidos e linhas vazias
             if not re.match(r"^https?://", link, re.IGNORECASE):
                 continue
 
             produtos.append({
                 "id": celula(linha, idx["id"]),
-                "categoria": celula(linha, idx["categoria"]).upper(),
-                "nome": celula(linha, idx["nome"]),
+                "categoria": celula(
+                    linha,
+                    idx["categoria"]
+                ).upper(),
+                "nome": celula(
+                    linha,
+                    idx["nome"]
+                ),
                 "link_afiliado": link,
-                "preco_atual": celula(linha, idx["preco_atual"]),
-                "preco_antigo": celula(linha, idx["preco_antigo"]),
-                "url_imagem": celula(linha, idx["url_imagem"])
+                "preco_atual": celula(
+                    linha,
+                    idx["preco_atual"]
+                ),
+                "preco_antigo": celula(
+                    linha,
+                    idx["preco_antigo"]
+                ),
+                "url_imagem": celula(
+                    linha,
+                    idx["url_imagem"]
+                )
             })
 
     if produtos:
-        with open("produtos.json", "w", encoding="utf-8") as f:
-            json.dump(produtos, f, ensure_ascii=False, indent=2)
-        print(f"\n✅ SUCESSO! produtos.json gerado com {len(produtos)} produtos!")
-        else:
+        with open(
+            "produtos.json",
+            "w",
+            encoding="utf-8"
+        ) as f:
+            json.dump(
+                produtos,
+                f,
+                ensure_ascii=False,
+                indent=2
+            )
+
+        print(
+            f"\n✅ SUCESSO! produtos.json gerado "
+            f"com {len(produtos)} produtos!"
+        )
+
+    else:
         print("\n⚠️ Nenhum produto válido encontrado.")
         sys.exit(1)
+
 
 if __name__ == "__main__":
     baixar_dados_planilha()
