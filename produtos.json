@@ -1,26 +1,17 @@
 [
   {
-    "id": "id",
-    "categoria": "categoria",
-    "nome": "nome",
-    "link_afiliado": "url_link_prod",
-    "preco_atual": "preco_promo",
-    "preco_antigo": "preco_real",
-    "url_imagem": "url_foto"
-  },
-  {
     "id": "1",
     "categoria": "MORDEDOR",
     "nome": "kit mordedor bebe",
-    "link_afiliado": "https://meli.la/2AYGQbH",
+    "link_afiliado": "https://meli.la/1BmmsjL",
     "preco_atual": "R$ 24,15",
     "preco_antigo": "R$ 40,00",
-    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_636014-MLA114307309560_082026-F.webp"
+    "url_imagem": ""
   },
   {
     "id": "2",
     "categoria": "MORDEDOR",
-    "nome": "",
+    "nome": "mordedor porta fruta bebe",
     "link_afiliado": "https://meli.la/19pwj1W",
     "preco_atual": "R$ 22,17",
     "preco_antigo": "R$ 22,17",
@@ -29,7 +20,7 @@
   {
     "id": "3",
     "categoria": "MORDEDOR",
-    "nome": "",
+    "nome": "mordedor celular bebe",
     "link_afiliado": "https://meli.la/1a2k3Zx",
     "preco_atual": "R$ 22,90",
     "preco_antigo": "R$ 32,90",
@@ -38,7 +29,7 @@
   {
     "id": "4",
     "categoria": "SPINNER",
-    "nome": "",
+    "nome": "kit 3 spinner ventosa",
     "link_afiliado": "https://meli.la/2CmMwhv",
     "preco_atual": "R$ 26,80",
     "preco_antigo": "R$ 36,90",
@@ -47,7 +38,7 @@
   {
     "id": "5",
     "categoria": "SPINNER",
-    "nome": "",
+    "nome": "bola voadora led",
     "link_afiliado": "https://meli.la/1jqngoZ",
     "preco_atual": "R$ 22,93",
     "preco_antigo": "R$ 49,90",
@@ -56,16 +47,16 @@
   {
     "id": "6",
     "categoria": "SPINNER",
-    "nome": "",
+    "nome": "spinner led",
     "link_afiliado": "https://meli.la/1zSnuWx",
     "preco_atual": "R$ 33,85",
     "preco_antigo": "R$ 33,85",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_917306-MLA79584797236_102024-F.webp"
   },
   {
     "id": "7",
     "categoria": "SPINNER",
-    "nome": "",
+    "nome": "spinner metal",
     "link_afiliado": "https://meli.la/2vab7uK",
     "preco_atual": "R$ 39,80",
     "preco_antigo": "R$ 46,90",
@@ -74,7 +65,7 @@
   {
     "id": "8",
     "categoria": "ABAFADOR",
-    "nome": "",
+    "nome": "abafador de ruído tea",
     "link_afiliado": "https://meli.la/25c2iEP",
     "preco_atual": "R$ 62,97",
     "preco_antigo": "R$ 209,90",
@@ -83,7 +74,7 @@
   {
     "id": "9",
     "categoria": "ABAFADOR",
-    "nome": "",
+    "nome": "abafador de ruido inf",
     "link_afiliado": "https://meli.la/1yxkc4k",
     "preco_atual": "R$ 34,91",
     "preco_antigo": "R$ 78,99",
@@ -92,7 +83,7 @@
   {
     "id": "10",
     "categoria": "ABAFADOR",
-    "nome": "",
+    "nome": "abafador adulto 32db",
     "link_afiliado": "https://meli.la/2eG3ddh",
     "preco_atual": "R$ 74,04",
     "preco_antigo": "R$ 199,00",
@@ -101,7 +92,7 @@
   {
     "id": "11",
     "categoria": "WIDGETS/FIDGETS",
-    "nome": "",
+    "nome": "kit 4 girafas poptube",
     "link_afiliado": "https://meli.la/32CUckq",
     "preco_atual": "R$ 24,15",
     "preco_antigo": "R$ 40,90",
@@ -110,16 +101,16 @@
   {
     "id": "12",
     "categoria": "WIDGETS/FIDGETS",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1YCgRvv",
-    "preco_atual": "R$ 20,26",
-    "preco_antigo": "R$ 34,49",
-    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_856905-MLA92013218535_092025-F.webp"
+    "nome": "Fidget Toy Cube Cubo Mini",
+    "link_afiliado": "https://meli.la/1JserrS",
+    "preco_atual": "R$ 28,00",
+    "preco_antigo": "R$ 32,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_712847-MLB51442765615_092022-F-fidget-toy-cube-cubo-mini-clicker-anti-stress-ansiedade.webp"
   },
   {
     "id": "13",
     "categoria": "WIDGETS/FIDGETS",
-    "nome": "",
+    "nome": "Pop It Fidget Toy Anti Stress",
     "link_afiliado": "https://meli.la/2hyRn1h",
     "preco_atual": "R$ 22,00",
     "preco_antigo": "R$ 59,00",
@@ -128,118 +119,982 @@
   {
     "id": "14",
     "categoria": "WIDGETS/FIDGETS",
-    "nome": "",
+    "nome": "Brinquedo Montessori Flower",
     "link_afiliado": "https://meli.la/2HZehW9",
     "preco_atual": "R$ 48,90",
     "preco_antigo": "R$ 48,90",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_767993-MLA113729323482_072026-F.webp"
   },
   {
     "id": "15",
     "categoria": "WIDGETS/FIDGETS",
-    "nome": "",
+    "nome": "Anel Sensorial Textura",
     "link_afiliado": "https://meli.la/1W9CWs3",
     "preco_atual": "R$ 49,90",
     "preco_antigo": "R$ 49,90",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_915471-MLB112054881499_052026-F-anel-sensorial-textura-tdah-tod-fidget-anti-estresse-12un.webp"
   },
   {
     "id": "16",
     "categoria": "WIDGETS/FIDGETS",
-    "nome": "",
+    "nome": "Kit Sensorial Fidget 4 Em 1",
     "link_afiliado": "https://meli.la/2689Hry",
     "preco_atual": "R$ 89,17",
     "preco_antigo": "R$ 98,80",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_960504-MLB110823721412_052026-F-kit-sensorial-fidget-4-em-1--anti-estresse-tea-tdah-autismo.webp"
   },
   {
     "id": "17",
     "categoria": "WIDGETS/FIDGETS",
-    "nome": "",
+    "nome": "Clicker Teclado",
     "link_afiliado": "https://meli.la/1AzYJqJ",
     "preco_atual": "R$ 29,90",
     "preco_antigo": "R$ 38,99",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_646727-MLA111728765510_062026-F.webp"
   },
   {
     "id": "18",
     "categoria": "SQUISHY/BOLINHAS",
-    "nome": "",
+    "nome": "Brinquedo Taba Squish",
     "link_afiliado": "https://meli.la/1BfPmMo",
     "preco_atual": "R$ 26,09",
     "preco_antigo": "R$ 64,20",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_670254-MLA99592656088_122025-F.webp"
   },
   {
     "id": "19",
     "categoria": "SQUISHY/BOLINHAS",
-    "nome": "",
+    "nome": "Kit 2 Squishy Brinquedo",
     "link_afiliado": "https://meli.la/2sCY2LJ",
-    "preco_atual": "R$ 27,22",
+    "preco_atual": "R$ 44,01",
     "preco_antigo": "R$ 45,37",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_787817-MLB93209980870_092025-F-kit-2-squishy-brinquedo-macio-sensorial-para-relaxar-mochi.webp"
   },
   {
     "id": "20",
     "categoria": "SQUISHY/BOLINHAS",
-    "nome": "",
+    "nome": "Squishy Sensorial com Luz LED",
     "link_afiliado": "https://meli.la/1o78WMH",
     "preco_atual": "R$ 59,90",
     "preco_antigo": "R$ 199,90",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_784704-MLA116588199859_082026-F.webp"
   },
   {
     "id": "21",
     "categoria": "TÁTIL SENSORIAL",
-    "nome": "",
+    "nome": "Tapete Sensorial Inflável De Agua",
     "link_afiliado": "https://meli.la/1qEnhY9",
     "preco_atual": "R$ 23,70",
     "preco_antigo": "R$ 24,99",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_819078-MLA111992104203_052026-F.webp"
   },
   {
     "id": "22",
     "categoria": "TÁTIL SENSORIAL",
-    "nome": "",
+    "nome": "Painel Sensorial Texturas",
     "link_afiliado": "https://meli.la/1dAq12o",
     "preco_atual": "R$ 64,17",
     "preco_antigo": "R$ 69,00",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_753214-MLB95358404203_102025-F-painel-sensorial-texturas-montessori-primeira-infancia.webp"
   },
   {
     "id": "23",
     "categoria": "TÁTIL SENSORIAL",
-    "nome": "",
+    "nome": "Livro De Pano | Jungle Selva",
     "link_afiliado": "https://meli.la/2qLDeif",
     "preco_atual": "R$ 64,69",
     "preco_antigo": "R$ 78,90",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_776601-MLB79267031566_092024-F-livro-de-pano--jungle-selva--livrinho-de-atividades-em-tecido-sensorial--buba.webp"
   },
   {
     "id": "24",
     "categoria": "TÁTIL SENSORIAL",
-    "nome": "",
+    "nome": "Massinha De Areia Cinética",
     "link_afiliado": "https://meli.la/1HRW262",
     "preco_atual": "R$ 32,81",
     "preco_antigo": "R$ 49,00",
-    "url_imagem": ""
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_774849-MLB115968254600_092026-F-massinha-de-areia-cinetica-divertida-sensorial-1kg.webp"
   },
   {
     "id": "25",
     "categoria": "TÁTIL SENSORIAL",
-    "nome": "",
+    "nome": "Painel Sensorial Montessori",
     "link_afiliado": "https://meli.la/1XQJNbe",
     "preco_atual": "R$ 83,51",
     "preco_antigo": "R$ 129,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_803192-MLB116033044647_082026-F-painel-sensorial-montessori-com-botoes-luzes-chave-sons.webp"
+  },
+  {
+    "id": "1",
+    "categoria": "EQUILIBRIO",
+    "nome": "Disco Equilíbrio Inflável",
+    "link_afiliado": "https://meli.la/1KNDLiH",
+    "preco_atual": "R$ 55,11",
+    "preco_antigo": "R$ 78,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_814512-MLB75662487329_042024-F-balance-disco-equilibrio-inflavel-almofada-33cm-fisio-pilate.webp"
+  },
+  {
+    "id": "2",
+    "categoria": "EQUILIBRIO",
+    "nome": "Prancha De Equilíbrio",
+    "link_afiliado": "https://meli.la/1rMotCV",
+    "preco_atual": "R$ 132,05",
+    "preco_antigo": "R$ 239,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_830908-MLB109854554600_042026-F-prancha-de-equilibrio-fisioterapia-pilates-propriocepcao-mb.webp"
+  },
+  {
+    "id": "3",
+    "categoria": "EQUILIBRIO",
+    "nome": "Meia Bola Suiça Com Alças E Bomba De Inflar",
+    "link_afiliado": "https://meli.la/1YDxeif",
+    "preco_atual": "R$ 174,00",
+    "preco_antigo": "R$ 231,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_823686-MLA107002448831_022026-F.webp"
+  },
+  {
+    "id": "4",
+    "categoria": "EQUILIBRIO",
+    "nome": "Balancim Proprioceptivo Fixo",
+    "link_afiliado": "https://meli.la/26LdXjv",
+    "preco_atual": "R$ 307,00",
+    "preco_antigo": "R$ 360,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_744701-MLA111964569669_052026-F-balancim-proprioceptivo-fixo---fisioterapia.webp"
+  },
+  {
+    "id": "5",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2CFCPi5",
+    "preco_atual": "",
+    "preco_antigo": "",
     "url_imagem": ""
   },
   {
-    "id": "ID",
-    "categoria": "CATEGORIA",
-    "nome": "LINK PROD",
-    "link_afiliado": "PREÇO  PROMO",
-    "preco_atual": "% COMISSÃO",
-    "preco_antigo": "MIDIA",
-    "url_imagem": "PREÇO REAL"
+    "id": "6",
+    "categoria": "BALANÇO",
+    "nome": "Rede De Descanso Infantil",
+    "link_afiliado": "https://meli.la/33ts7sx",
+    "preco_atual": "R$ 53,35",
+    "preco_antigo": "R$ 69,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_853076-MLB109553509806_042026-F-rede-de-descanso-infantil-para-criancas-balancar-descansar.webp"
+  },
+  {
+    "id": "7",
+    "categoria": "BALANÇO",
+    "nome": "Rede De Descanso",
+    "link_afiliado": "https://meli.la/1pnwpQS",
+    "preco_atual": "R$ 39,90",
+    "preco_antigo": "R$ 46,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_692126-MLB103000234345_122025-F-rede-de-descanso-dormir-cinza-listrado-algodao-jeans-horizon.webp"
+  },
+  {
+    "id": "8",
+    "categoria": "BALANÇO",
+    "nome": "Balanço Sensorial Infantil De Teto",
+    "link_afiliado": "https://meli.la/1jFYCom",
+    "preco_atual": "R$ 137,99",
+    "preco_antigo": "R$ 137,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_713188-MLB114384823670_082026-F-balanco-sensorial-infantil-de-teto-casulo-ninho-reforcado.webp"
+  },
+  {
+    "id": "9",
+    "categoria": "BALANÇO",
+    "nome": "Rede Cadeira Balanço",
+    "link_afiliado": "https://meli.la/2owaCEg",
+    "preco_atual": "R$ 194,03",
+    "preco_antigo": "R$ 194,03",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_832590-MLB109772687370_042026-F-rede-cadeira-balanco-de-teto-suspensa-adulto-e-infantil.webp"
+  },
+  {
+    "id": "10",
+    "categoria": "BOLA",
+    "nome": "Bola Peanut Ball Yoga Pilates",
+    "link_afiliado": "https://meli.la/1JbmuKz",
+    "preco_atual": "R$ 48,40",
+    "preco_antigo": "R$ 64,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_840074-MLA111389753827_052026-F.webp"
+  },
+  {
+    "id": "11",
+    "categoria": "BOLA",
+    "nome": "Bola Pilates Yoga Fisioterapia",
+    "link_afiliado": "https://meli.la/1FQwoFy",
+    "preco_atual": "R$ 39,99",
+    "preco_antigo": "R$ 78,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_626092-MLB114990211024_082026-F-bola-pilates-yoga-fisioterapia-suica-ginastica-55cm-200kg.webp"
+  },
+  {
+    "id": "12",
+    "categoria": "BOLA",
+    "nome": "Bola Suiça Pilates Fisio 65cm + Faixa Elastica + 5 Mini Band",
+    "link_afiliado": "https://meli.la/2GMAqjY",
+    "preco_atual": "R$ 56,99",
+    "preco_antigo": "R$ 78,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_720153-MLA88206940135_072025-F.webp"
+  },
+  {
+    "id": "13",
+    "categoria": "JOELHEIRA",
+    "nome": "Par Joelheira Bebê",
+    "link_afiliado": "https://meli.la/16kzW7E",
+    "preco_atual": "R$ 22,96",
+    "preco_antigo": "R$ 31,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_766299-MLB113784026109_062026-F-par-joelheira-bebe-engatinhar-antiderrapante-protetor-joelho.webp"
+  },
+  {
+    "id": "14",
+    "categoria": "JOELHEIRA",
+    "nome": "Joelheira Compressão Faixa",
+    "link_afiliado": "https://meli.la/2Aj9Zhk",
+    "preco_atual": "R$ 28,77",
+    "preco_antigo": "R$ 42,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_700800-MLB114137054633_072026-F-joelheira-compressao-faixa-patelar-esporte-academia-corrida.webp"
+  },
+  {
+    "id": "15",
+    "categoria": "CINTA",
+    "nome": "Faixa Cinta Elástica",
+    "link_afiliado": "https://meli.la/2FSa8e9",
+    "preco_atual": "R$ 89,02",
+    "preco_antigo": "R$ 89,02",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_783823-MLA111617461960_062026-F.webp"
+  },
+  {
+    "id": "16",
+    "categoria": "MUNHEQUEIRA",
+    "nome": "Munhequeira Elástica",
+    "link_afiliado": "https://meli.la/1sCdBv3",
+    "preco_atual": "R$ 24,90",
+    "preco_antigo": "R$ 33,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_955328-MLB113962476253_062026-F-munhequeira-elastica-alta-compresso-alta-performance-par.webp"
+  },
+  {
+    "id": "17",
+    "categoria": "MUNHEQUEIRA",
+    "nome": "Munhequeira Profissional",
+    "link_afiliado": "https://meli.la/2oBmgHK",
+    "preco_atual": "R$ 38,97",
+    "preco_antigo": "R$ 49,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_705491-MLB78588770245_082024-F-munhequeira-profissional-crossfit-powerlifting-lpo-nogue-fit.webp"
+  },
+  {
+    "id": "18",
+    "categoria": "TORNOZELEIRA",
+    "nome": "Par Tornozeleira Ortopedica",
+    "link_afiliado": "https://meli.la/289qxwC",
+    "preco_atual": "R$ 29,28",
+    "preco_antigo": "R$ 32,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_667992-MLB110261110616_052026-F-par-tornozeleira-ortopedica-compresso-estabilizador-entorse.webp"
+  },
+  {
+    "id": "19",
+    "categoria": "TORNOZELEIRA",
+    "nome": "Faixa Cinta Elástica Abdominal",
+    "link_afiliado": "https://meli.la/1xK5mkM",
+    "preco_atual": "R$ 27,42",
+    "preco_antigo": "R$ 27,42",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_997749-MLA103457266791_012026-F.webp"
+  },
+  {
+    "id": "20",
+    "categoria": "COLETE",
+    "nome": "Colete Ponderado Ajustável",
+    "link_afiliado": "https://meli.la/14PcLM7",
+    "preco_atual": "R$ 396,00",
+    "preco_antigo": "R$ 396,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_N396,,00P_2X_773602-MLB95374043565_102025-F-colete-ponderado-ajustavel-terapeutico.webp"
+  },
+  {
+    "id": "21",
+    "categoria": "COLETE",
+    "nome": "Colete De Peso",
+    "link_afiliado": "https://meli.la/2NJ7HNo",
+    "preco_atual": "R$ 163,94",
+    "preco_antigo": "R$ 189,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_854515-MLB113387724528_072026-F-colete-de-peso-5kg-carga-profissional-treino-funcional-cross.webp"
+  },
+  {
+    "id": "22",
+    "categoria": "COBERTOR",
+    "nome": "Cobertor Ponderado",
+    "link_afiliado": "https://meli.la/12CWULH",
+    "preco_atual": "R$ 700,00",
+    "preco_antigo": "R$ 700,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_932685-MLA115752862086_092026-F-cobertor-ponderado-100x140cm-fresquinho-em-lycra.webp"
+  },
+  {
+    "id": "23",
+    "categoria": "COBERTOR",
+    "nome": "Cobertor Ponderado",
+    "link_afiliado": "https://meli.la/1JDmWcc",
+    "preco_atual": "R$ 797,99",
+    "preco_antigo": "R$ 79,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_999421-MLB116004034278_092026-F-cobertor-ponderado-quentinho-p-150x140cm.webp"
+  },
+  {
+    "id": "24",
+    "categoria": "PROTETOR CABEÇA",
+    "nome": "PROTETOR CABEÇA",
+    "link_afiliado": "https://meli.la/1htZX9w",
+    "preco_atual": "R$ 49,85",
+    "preco_antigo": "R$ 49,85",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_946493-MLA110414279248_052026-F.webp"
+  },
+  {
+    "id": "25",
+    "categoria": "PROTETOR CABEÇA",
+    "nome": "PROTETOR CABEÇA",
+    "link_afiliado": "https://meli.la/2fmwwBo",
+    "preco_atual": "R$ 99,71",
+    "preco_antigo": "R$ 169,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_890485-MLB114965478896_082026-F-capacete-boxe-muay-thai-kickboxing-ajustavel-criancasadulto.webp"
+  },
+  {
+    "id": "1",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2UrVHxU",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "2",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2fSUo3i",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "3",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2QHbGdZ",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "4",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/11jMJnB",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "5",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1aGUvBQ",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "6",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1HiHxuN",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "7",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1qShwu8",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "8",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1oTewDc",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "9",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2SYC5WY",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "10",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2b5DzL8",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1zEncBA",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2TcjnB1",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/17w1xWf",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1qjJs9C",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2zh8N2m",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1KcFnk1",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1eM89WA",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1fPpQNo",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/23McLZJ",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2R2UyzN",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2KN38in",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1fSEk11",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/18mxfbv",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "MEMÓRIA",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1dU4fcb",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2oJjY49",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/16krH5K",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1o2tAaf",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1LAvDtx",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1pAdXvo",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1SVfGaf",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2SyZZsN",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1bXZgn3",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2RdZksV",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1ocyKMq",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1yLoYUd",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/284Gtnw",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1CfWBH9",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2Lpe5Ns",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1LG71cx",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1EFcdVE",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2wJ2ziG",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/16d9fNR",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2MUohd2",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2uqAGnd",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/31YYo6X",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "1",
+    "categoria": "POSTURA",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2gvRm7J",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "2",
+    "categoria": "POSTURA",
+    "nome": "",
+    "link_afiliado": "https://meli.la/26SB6ke",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "3",
+    "categoria": "POSTURA",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2qmkR47",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "POSTURA",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1q7msND",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "4",
+    "categoria": "MOTRICIDADE",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1i6A9KT",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "5",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/248EUAM",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "6",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2yeL4UJ",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "7",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1wYAqgJ",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "8",
+    "categoria": "",
+    "nome": "Kit Motricidade Fina",
+    "link_afiliado": "https://meli.la/2wnj12o",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "9",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1W4VBwp",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "10",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/12QsGQi",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "11",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2t3xDHS",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "12",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1Rzuv6F",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "13",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1kkhJpn",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "14",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1kkhJpn",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "15",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2JxrRer",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "16",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1RchDHm",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "17",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2k4UUun",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "18",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1q49Djv",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "19",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2KnXkgm",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "20",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1zEncBA",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "21",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1sB2C1e",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "22",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2tDbncU",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "23",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2s4UJc7",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "24",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/2LeZbK8",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "25",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1gQ4EZf",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
+  },
+  {
+    "id": "",
+    "categoria": "",
+    "nome": "",
+    "link_afiliado": "https://meli.la/1KjxNDY",
+    "preco_atual": "",
+    "preco_antigo": "",
+    "url_imagem": ""
   }
 ]
