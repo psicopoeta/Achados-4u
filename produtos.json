@@ -262,12 +262,12 @@
   },
   {
     "id": "5",
-    "categoria": "",
-    "nome": "",
+    "categoria": "EQUILIBRIO",
+    "nome": "Balanço Infantil Criança",
     "link_afiliado": "https://meli.la/2CFCPi5",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 33,99",
+    "preco_antigo": "R$ 42,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_996201-MLA95967253277_102025-F.webp"
   },
   {
     "id": "6",
@@ -297,16 +297,16 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_713188-MLB114384823670_082026-F-balanco-sensorial-infantil-de-teto-casulo-ninho-reforcado.webp"
   },
   {
-    "id": "",
+    "id": "9",
     "categoria": "BALANÇO",
     "nome": "Rede Cadeira Balanço",
     "link_afiliado": "https://meli.la/11dU9mU",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 119,90",
+    "preco_antigo": "R$ 119,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_969739-MLB92868744304_092025-F-cadeira-rede-balanco-de-teto-suspensa-varias-cores.webp"
   },
   {
-    "id": "9",
+    "id": "10",
     "categoria": "BALANÇO",
     "nome": "Rede Cadeira Balanço",
     "link_afiliado": "https://meli.la/2owaCEg",
@@ -315,7 +315,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_832590-MLB109772687370_042026-F-rede-cadeira-balanco-de-teto-suspensa-adulto-e-infantil.webp"
   },
   {
-    "id": "10",
+    "id": "11",
     "categoria": "BOLA",
     "nome": "Bola Peanut Ball Yoga Pilates",
     "link_afiliado": "https://meli.la/1JbmuKz",
@@ -324,7 +324,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_840074-MLA111389753827_052026-F.webp"
   },
   {
-    "id": "11",
+    "id": "12",
     "categoria": "BOLA",
     "nome": "Bola Pilates Yoga Fisioterapia",
     "link_afiliado": "https://meli.la/1FQwoFy",
@@ -333,7 +333,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_626092-MLB114990211024_082026-F-bola-pilates-yoga-fisioterapia-suica-ginastica-55cm-200kg.webp"
   },
   {
-    "id": "12",
+    "id": "13",
     "categoria": "BOLA",
     "nome": "Bola Suiça Pilates Fisio 65cm + Faixa Elastica + 5 Mini Band",
     "link_afiliado": "https://meli.la/2GMAqjY",
@@ -342,7 +342,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_720153-MLA88206940135_072025-F.webp"
   },
   {
-    "id": "13",
+    "id": "14",
     "categoria": "JOELHEIRA",
     "nome": "Par Joelheira Bebê",
     "link_afiliado": "https://meli.la/16kzW7E",
@@ -351,7 +351,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_766299-MLB113784026109_062026-F-par-joelheira-bebe-engatinhar-antiderrapante-protetor-joelho.webp"
   },
   {
-    "id": "14",
+    "id": "15",
     "categoria": "JOELHEIRA",
     "nome": "Joelheira Compressão Faixa",
     "link_afiliado": "https://meli.la/2Aj9Zhk",
@@ -360,7 +360,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_700800-MLB114137054633_072026-F-joelheira-compressao-faixa-patelar-esporte-academia-corrida.webp"
   },
   {
-    "id": "15",
+    "id": "16",
     "categoria": "CINTA",
     "nome": "Faixa Cinta Elástica",
     "link_afiliado": "https://meli.la/2FSa8e9",
@@ -369,7 +369,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_783823-MLA111617461960_062026-F.webp"
   },
   {
-    "id": "16",
+    "id": "17",
     "categoria": "MUNHEQUEIRA",
     "nome": "Munhequeira Elástica",
     "link_afiliado": "https://meli.la/1sCdBv3",
@@ -378,7 +378,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_955328-MLB113962476253_062026-F-munhequeira-elastica-alta-compresso-alta-performance-par.webp"
   },
   {
-    "id": "17",
+    "id": "18",
     "categoria": "MUNHEQUEIRA",
     "nome": "Munhequeira Profissional",
     "link_afiliado": "https://meli.la/2oBmgHK",
@@ -387,7 +387,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_705491-MLB78588770245_082024-F-munhequeira-profissional-crossfit-powerlifting-lpo-nogue-fit.webp"
   },
   {
-    "id": "18",
+    "id": "19",
     "categoria": "TORNOZELEIRA",
     "nome": "Par Tornozeleira Ortopedica",
     "link_afiliado": "https://meli.la/289qxwC",
@@ -396,7 +396,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_667992-MLB110261110616_052026-F-par-tornozeleira-ortopedica-compresso-estabilizador-entorse.webp"
   },
   {
-    "id": "19",
+    "id": "20",
     "categoria": "TORNOZELEIRA",
     "nome": "Faixa Cinta Elástica Abdominal",
     "link_afiliado": "https://meli.la/1xK5mkM",
@@ -405,7 +405,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_997749-MLA103457266791_012026-F.webp"
   },
   {
-    "id": "20",
+    "id": "21",
     "categoria": "COLETE",
     "nome": "Colete Ponderado Ajustável",
     "link_afiliado": "https://meli.la/14PcLM7",
@@ -414,7 +414,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_N396,,00P_2X_773602-MLB95374043565_102025-F-colete-ponderado-ajustavel-terapeutico.webp"
   },
   {
-    "id": "21",
+    "id": "22",
     "categoria": "COLETE",
     "nome": "Colete De Peso",
     "link_afiliado": "https://meli.la/2NJ7HNo",
@@ -423,7 +423,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_854515-MLB113387724528_072026-F-colete-de-peso-5kg-carga-profissional-treino-funcional-cross.webp"
   },
   {
-    "id": "22",
+    "id": "23",
     "categoria": "COBERTOR",
     "nome": "Cobertor Ponderado",
     "link_afiliado": "https://meli.la/12CWULH",
@@ -432,7 +432,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_932685-MLA115752862086_092026-F-cobertor-ponderado-100x140cm-fresquinho-em-lycra.webp"
   },
   {
-    "id": "23",
+    "id": "24",
     "categoria": "COBERTOR",
     "nome": "Cobertor Ponderado",
     "link_afiliado": "https://meli.la/1JDmWcc",
@@ -441,7 +441,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_999421-MLB116004034278_092026-F-cobertor-ponderado-quentinho-p-150x140cm.webp"
   },
   {
-    "id": "24",
+    "id": "25",
     "categoria": "PROTETOR CABEÇA",
     "nome": "PROTETOR CABEÇA",
     "link_afiliado": "https://meli.la/1htZX9w",
@@ -450,7 +450,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_946493-MLA110414279248_052026-F.webp"
   },
   {
-    "id": "25",
+    "id": "26",
     "categoria": "PROTETOR CABEÇA",
     "nome": "PROTETOR CABEÇA",
     "link_afiliado": "https://meli.la/2fmwwBo",
@@ -470,20 +470,20 @@
   {
     "id": "2",
     "categoria": "",
-    "nome": "",
+    "nome": "Brinquedo Autista Tabuleiro",
     "link_afiliado": "https://meli.la/2fSUo3i",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 47,99",
+    "preco_antigo": "R$ 47,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_869657-MLB108485467676_032026-F-brinquedo-autista-tabuleiro-encaixe-sensorial-colorido-tea.webp"
   },
   {
     "id": "3",
     "categoria": "",
-    "nome": "",
+    "nome": "Jogos Pedagógicos De Encaixe Yins Kids",
     "link_afiliado": "https://meli.la/2QHbGdZ",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 35,69",
+    "preco_antigo": "R$ 35,69",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_925700-MLB113258736331_062026-F-tea-tdah-brinquedo-jogos-pedagogicos-de-encaixe-yins-kids.webp"
   },
   {
     "id": "4",
@@ -794,38 +794,38 @@
   {
     "id": "38",
     "categoria": "",
-    "nome": "",
+    "nome": "Kit 100 Blocos Magnéticos",
     "link_afiliado": "https://meli.la/2Lpe5Ns",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 56,03",
+    "preco_antigo": "R$ 109,97",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_677392-MLA115144390676_082026-F.webp"
   },
   {
     "id": "39",
     "categoria": "",
-    "nome": "",
+    "nome": "Cubos Matemáticos Didáticos",
     "link_afiliado": "https://meli.la/1LG71cx",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 59,00",
+    "preco_antigo": "R$ 112,72",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_674158-MLB89171902530_082025-F-numberblocks-brinquedo-educativo-cubos-matematicos-didaticos.webp"
   },
   {
     "id": "40",
     "categoria": "",
-    "nome": "",
+    "nome": "Didático Para Matemática",
     "link_afiliado": "https://meli.la/1EFcdVE",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 24,50",
+    "preco_antigo": "R$ 24,50",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_812519-MLB109866517520_042026-F.webp"
   },
   {
     "id": "41",
     "categoria": "",
-    "nome": "",
+    "nome": "Blocos De Construção Magnéticos",
     "link_afiliado": "https://meli.la/2wJ2ziG",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 135,69",
+    "preco_antigo": "R$ 238,05",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_776810-MLB90573757591_082025-F-blocos-de-construcao-magneticos-zcco-educativo-infantil.webp"
   },
   {
     "id": "42",
@@ -839,20 +839,20 @@
   {
     "id": "43",
     "categoria": "",
-    "nome": "",
+    "nome": "Lousa Mágica",
     "link_afiliado": "https://meli.la/2MUohd2",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 19,90",
+    "preco_antigo": "R$ 25,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_734882-MLB114678940395_072026-F-lousa-magica-infantil-lcd-85-pol-com-caneta-para-desenho.webp"
   },
   {
     "id": "44",
     "categoria": "",
-    "nome": "",
+    "nome": "Tábua De Desenho Magnética",
     "link_afiliado": "https://meli.la/2uqAGnd",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 39,99",
+    "preco_antigo": "R$ 69,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_695038-MLB112673014139_062026-F-tabua-de-desenho-magnetica-montessori-lousa-educativa.webp"
   },
   {
     "id": "45",
@@ -860,7 +860,7 @@
     "nome": "Lousa cópia desenho - Patrulha canina",
     "link_afiliado": "https://meli.la/31YYo6X",
     "preco_atual": "R$ 36,90",
-    "preco_antigo": "",
+    "preco_antigo": "R$ 129,99",
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_631650-MLB116278142059_082026-F-lousa-mini-pad-patrulha-canina-led-lcd-desenho-kit-infantil.webp"
   },
   {
@@ -891,7 +891,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_923429-MLU74273645698_022024-F.webp"
   },
   {
-    "id": "",
+    "id": "4",
     "categoria": "POSTURA",
     "nome": "Balanço Prancha T.O",
     "link_afiliado": "https://meli.la/1q7msND",
@@ -900,7 +900,7 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_962862-MLB106703541392_022026-F-balanco-prancha-de-terapia-ocupacional-tdah-e-autismo.webp"
   },
   {
-    "id": "4",
+    "id": "5",
     "categoria": "MOTRICIDADE",
     "nome": "Tapete amarelinha",
     "link_afiliado": "https://meli.la/1i6A9KT",
@@ -909,34 +909,34 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_746946-MLA100105905155_122025-F.webp"
   },
   {
-    "id": "5",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/248EUAM",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
-  },
-  {
     "id": "6",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/2yeL4UJ",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Tapete Amarelinha Infantil",
+    "link_afiliado": "https://meli.la/248EUAM",
+    "preco_atual": "R$ 43,05",
+    "preco_antigo": "R$ 62,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_667625-MLA86094315646_062025-F.webp"
   },
   {
     "id": "7",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1wYAqgJ",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Tapete Amarelinha Infantil",
+    "link_afiliado": "https://meli.la/2yeL4UJ",
+    "preco_atual": "R$ 61,94",
+    "preco_antigo": "R$ 102,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_940309-MLA97131744889_112025-F.webp"
   },
   {
     "id": "8",
+    "categoria": "MOTRICIDADE",
+    "nome": "Casinha Educativa Didática",
+    "link_afiliado": "https://meli.la/1wYAqgJ",
+    "preco_atual": "R$ 44,90",
+    "preco_antigo": "R$ 44,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_758122-MLA113619398947_062026-F.webp"
+  },
+  {
+    "id": "9",
     "categoria": "MOTRICIDADE",
     "nome": "Kit Motricidade Fina",
     "link_afiliado": "https://meli.la/2wnj12o",
@@ -945,61 +945,61 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_778622-MLB108255995050_032026-F-kit-motricidade-fina-coordenacao-motora-fina-escolar-crianca.webp"
   },
   {
-    "id": "9",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1W4VBwp",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
-  },
-  {
     "id": "10",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/12QsGQi",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Brinquedo Giraformas",
+    "link_afiliado": "https://meli.la/1W4VBwp",
+    "preco_atual": "R$ 80,27",
+    "preco_antigo": "R$ 89,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_673752-MLB115767129022_092026-F-brinquedo-giraformas-motricidade-fina-com-22-pecas.webp"
   },
   {
     "id": "11",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/2t3xDHS",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Coordenação Motora",
+    "link_afiliado": "https://meli.la/12QsGQi",
+    "preco_atual": "R$ 47,15",
+    "preco_antigo": "R$ 47,15",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_713626-MLA110210724622_052026-F.webp"
   },
   {
     "id": "12",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1Rzuv6F",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Alinhavo Educativo",
+    "link_afiliado": "https://meli.la/2t3xDHS",
+    "preco_atual": "R$ 20,99",
+    "preco_antigo": "R$ 27,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_656283-MLB115406496056_082026-F-alinhavo-educativo-aprenda-amarrar-cadarco-tenis-infantil.webp"
   },
   {
     "id": "13",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1kkhJpn",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Brinquedo Encaixe Divertido",
+    "link_afiliado": "https://meli.la/1Rzuv6F",
+    "preco_atual": "R$ 20,19",
+    "preco_antigo": "R$ 35,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_641613-MLB114903824438_082026-F-brinquedo-encaixe-divertido-madeira-colorido-educativo-pedag.webp"
   },
   {
     "id": "14",
-    "categoria": "",
-    "nome": "",
+    "categoria": "MOTRICIDADE",
+    "nome": "Conjunto De Painéis Psicomotores",
     "link_afiliado": "https://meli.la/1kkhJpn",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 182,75",
+    "preco_antigo": "R$ 192,37",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_706096-MLB73523636775_122023-F-brinquedo-pedagogico--conjunto-de-paineis-psicomotores.webp"
   },
   {
     "id": "15",
+    "categoria": "MOTRICIDADE",
+    "nome": "Brinquedo Blocos De Montar",
+    "link_afiliado": "https://meli.la/2s4UJc7",
+    "preco_atual": "R$ 36,90",
+    "preco_antigo": "R$ 49,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_920478-MLB71393552856_082023-F-brinquedo-blocos-de-montar-infantil-educativo-encaixe-grande.webp"
+  },
+  {
+    "id": "16",
     "categoria": "MOTRICIDADE",
     "nome": "Painel psicomotor",
     "link_afiliado": "https://meli.la/2JxrRer",
@@ -1008,102 +1008,84 @@
     "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_761703-MLB87296882314_072025-F-painel-psicomotor-brinquedo-educativo-pedagogico-em-madeira.webp"
   },
   {
-    "id": "16",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1RchDHm",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
-  },
-  {
     "id": "17",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/2k4UUun",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Labirinto Magnético",
+    "link_afiliado": "https://meli.la/1RchDHm",
+    "preco_atual": "R$ 27,00",
+    "preco_antigo": "R$ 78,88",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_694159-MLB115003311772_082026-F-brinquedo-educativo-infantil-labirinto-magnetico-montessori.webp"
   },
   {
     "id": "18",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1q49Djv",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Brinquedo Infanti Educativo",
+    "link_afiliado": "https://meli.la/2k4UUun",
+    "preco_atual": "R$ 39,90",
+    "preco_antigo": "R$ 39,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_656656-MLB114669053749_072026-F-brinquedo-infanti-educativo-pedagogicosensorial-atividades.webp"
   },
   {
     "id": "19",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/2KnXkgm",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Pinça Infantil Jacaré",
+    "link_afiliado": "https://meli.la/1q49Djv",
+    "preco_atual": "R$ 24,99",
+    "preco_antigo": "R$ 24,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_921367-MLB96873196769_102025-F-pinca-infantil-jacare--desenvolve-a-coordenacao-5-unidades.webp"
   },
   {
     "id": "20",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1zEncBA",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Talheres Adaptados",
+    "link_afiliado": "https://meli.la/2KnXkgm",
+    "preco_atual": "R$ 59,90",
+    "preco_antigo": "R$ 59,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_851483-MLB116255859097_082026-F-talheres-adaptados-para-mobilidade-idoso-paciente--tenicore.webp"
   },
   {
     "id": "21",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1sB2C1e",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Soprador De Incentivo",
+    "link_afiliado": "https://meli.la/1zEncBA",
+    "preco_atual": "R$ 26,90",
+    "preco_antigo": "R$ 26,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_771526-MLB110859493922_052026-F-soprador-de-incentivo-exercicio-de-respiracao-motricidade.webp"
   },
   {
     "id": "22",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/2tDbncU",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Jogo Da Sequência",
+    "link_afiliado": "https://meli.la/1sB2C1e",
+    "preco_atual": "R$ 26,21",
+    "preco_antigo": "R$ 26,21",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_873456-MLB95328473145_102025-F-jogo-da-sequencia-pinca-tubete-pompom-cards-plastificados.webp"
   },
   {
     "id": "23",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/2s4UJc7",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Jogo Interativo Ritmo Musical",
+    "link_afiliado": "https://meli.la/1KjxNDY",
+    "preco_atual": "R$ 38,61",
+    "preco_antigo": "R$ 55,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_729997-MLB113349212616_072026-F-jogo-interativo-ritmo-musical-musical-mini-game-portatil.webp"
   },
   {
     "id": "24",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/2LeZbK8",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "categoria": "MOTRICIDADE",
+    "nome": "Jogo Pescaria Magnética",
+    "link_afiliado": "https://meli.la/1gQ4EZf",
+    "preco_atual": "R$ 38,86",
+    "preco_antigo": "R$ 67,00",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_865040-MLB115230346083_072026-F-jogo-pescaria-magnetica-infantil-brinquedo-educativo-madeira.webp"
   },
   {
     "id": "25",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1gQ4EZf",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
-  },
-  {
-    "id": "",
     "categoria": "MOTRICIDADE",
-    "nome": "Jogo interativo ritmo musical",
-    "link_afiliado": "https://meli.la/1KjxNDY",
-    "preco_atual": "R$ 38,61",
-    "preco_antigo": "",
-    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_729997-MLB113349212616_072026-F-jogo-interativo-ritmo-musical-musical-mini-game-portatil.webp"
+    "nome": "Brinquedo Labirinto Educativo",
+    "link_afiliado": "https://meli.la/2LeZbK8",
+    "preco_atual": "R$ 59,46",
+    "preco_antigo": "R$ 59,46",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_880465-MLB116284419061_082026-F-brinquedo-labirinto-educativo-aramado-tea-montessori-cores.webp"
   }
 ]
