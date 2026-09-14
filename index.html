@@ -42,19 +42,25 @@
         <li><a href="#sub-balanco">🪁 Balanço</a></li>
         <li><a href="#sub-bolas">🟡 Bolas</a></li>
         <li><a href="#sub-ponderado">🧥 Manta / Colete Ponderado</a></li>
-        <li><a href="#sub-tensores">💪 Tensores</a></li>
+        <li><a href="#sub-faixas">💪 Faixa compressão</a></li>
+        <li><a href="#sub-protetor">🎧 Protetor cabeça</a></li>
 
         <li role="separator" class="divider" style="border-top: 1px solid #eee; margin: 5px 0;"></li>
 
         <!-- BLOCOS 3: PEDAGÓGICO E COGNITIVO -->
         <li class="dropdown-header" style="font-weight: bold; color: #2c3e50; padding: 5px 20px;">🧩 PEDAGÓGICO E COGNITIVO</li>
-        <li><a href="#macro-pedagogico">🔍 Ver Itens Cognitivos</a></li>
+        <li><a href="#sub-jogo">🕹️ Jogo pedagógico</a></li>
+        <li><a href="#sub-memória">🟡 Memória</a></li>
+        <li><a href="#sub-quebracabeça">🪁 Quebra-cabeça</a></li>
+        <li><a href="#sub-comunicação">🎧 Comunicação / fala / leitura</a></li>
+        <li><a href="#sub-lousa">🌀 Lousa</a></li>
         
         <li role="separator" class="divider" style="border-top: 1px solid #eee; margin: 5px 0;"></li>
 
          <!-- BLOCOS 4: POSTURA E MOTRICIDADE -->
         <li class="dropdown-header" style="font-weight: bold; color: #2c3e50; padding: 5px 20px;">🪑 POSTURA E MOTRICIDADE</li>
-        <li><a href="#macro-postura">🪵 Ver Itens de Motricidade</a></li>
+        <li><a href="#sub-postura">⚖️ Postura</a></li>
+        <li><a href="#sub-motricidade">💪 Motricidade</a></li>
     </ul>
 </li>
 
@@ -114,23 +120,42 @@
         <h3>🧥 Manta / Colete Ponderado</h3>
         <div id="sub-ponderado" class="grade-produtos"></div>
 
-        <h3>💪 Tensores</h3>
+        <h3>💪 Faixa compressão</h3>
         <div id="sub-tensores" class="grade-produtos"></div>
     </div>
 
     <!-- BLOCK 3: PEDAGÓGICO E COGNITIVO -->
     <div id="macro-pedagogico" class="bloco-macro">
-    <h2>🧩 Pedagógico e Cognitivo</h2>
-    <!-- O container abaixo vai renderizar tudo sozinho -->
-    <div id="container-dinamico-pedagogico"></div>
+        <h2>🧩 Pedagógico e Cognitivo</h2>
+        
+        <h3>⚖️ Jogo pedagógico</h3>
+        <div id="sub-jogo" class="grade-produtos"></div>
+
+        <h3>🟡 Memória</h3>
+        <div id="sub-memória" class="grade-produtos"></div>
+
+        <h3>🪁 Quebra-cabeça</h3>
+        <div id="sub-quebracabeça" class="grade-produtos"></div>
+
+        <h3>🎧 Comunicação / fala / leitura</h3>
+        <div id="sub-comunicação" class="grade-produtos"></div>
+
+        <h3>🌀 Lousa</h3>
+        <div id="sub-lousa" class="grade-produtos"></div>
+    
     </div>
 
 
     <!-- BLOCK 4: POSTURA E MOTRICIDADE -->
     <div id="macro-postura" class="bloco-macro">
         <h2>🪑 Postura e Motricidade</h2>
-       <!-- O container abaixo vai renderizar tudo sozinho -->
-    <div id="container-dinamico-postura"></div>
+        
+        <h3>⚖️ Postura</h3>
+        <div id="sub-postura" class="grade-produtos"></div>
+
+        <h3>⚖️ Motricidade</h3>
+        <div id="sub-motricidade" class="grade-produtos"></div>
+        
     </div>
 
 
@@ -214,120 +239,7 @@
         </div>
     </footer>
 
-   <script>
-// URL do seu Google Sheets exportado como CSV
-const URL_PLANILHA_CSV = "https://google.com";
-
-function parsearLinhaCSV(textoLinha) {
-    const resultado = [];
-    let dentroDeAspas = false;
-    let valorAtual = "";
-    
-    for (let i = 0; i < textoLinha.length; i++) {
-        let char = textoLinha[i];
-        if (char === '"') {
-            dentroDeAspas = !dentroDeAspas;
-        } else if (char === ',' && !dentroDeAspas) {
-            resultado.push(valorAtual.trim());
-            valorAtual = "";
-        } else {
-            valorAtual += char;
-        }
-    }
-    resultado.push(valorAtual.trim());
-    return resultado;
-}
-
-async function carregarDadosPlanilha() {
-    try {
-        const resposta = await fetch(URL_PLANILHA_CSV);
-        if (!resposta.ok) throw new Error("Não foi possível acessar os dados da planilha.");
-        
-        const textoCompleto = await resposta.text();
-        const linhas = textoCompleto.split(/\r?\n/);
-        
-        // Remove a primeira linha (cabeçalho: id, categoria, nome...)
-        linhas.shift(); 
-
-        const container = document.getElementById("container-dinamico-pedagogico");
-        container.innerHTML = ""; 
-
-        const dadosAgrupados = {};
-
-        linhas.forEach(linhaTexto => {
-            if (!linhaTexto.trim()) return; 
-            
-            const colunas = parsearLinhaCSV(linhaTexto);
-            
-            // Mapeamento exato baseado no cabeçalho fornecido:
-            // 0:id | 1:categoria | 2:nome | 3:url_link_prod | 4:url_foto | 5:preco_promo | 6:preco_real
-            const subcategoria = colunas[1] || "Geral";
-            const nomeProduto = colunas[2];
-            const linkProduto = colunas[3] || "#";
-            const urlImagem = colunas[4] || "";
-            const precoPromo = colunas[5] || "";
-            const precoReal = colunas[6] || "";
-
-            if (nomeProduto) {
-                if (!dadosAgrupados[subcategoria]) {
-                    dadosAgrupados[subcategoria] = [];
-                }
-                dadosAgrupados[subcategoria].push({
-                    nome: nomeProduto,
-                    link: linkProduto,
-                    imagem: urlImagem,
-                    promo: precoPromo,
-                    real: precoReal
-                });
-            }
-        });
-
-        // Renderização do HTML na tela
-        for (const subcategoria in dadosAgrupados) {
-            // Cria o título da Subcategoria
-            const tituloSub = document.createElement("h3");
-            tituloSub.textContent = `📁 ${subcategoria}`;
-            container.appendChild(tituloSub);
-
-            // Cria a grade de produtos
-            const gradeProdutos = document.createElement("div");
-            gradeProdutos.className = "grade-produtos";
-
-            dadosAgrupados[subcategoria].forEach(produto => {
-                const card = document.createElement("div");
-                card.className = "card-produto"; // Usa a sua classe de estilos atual
-                
-                // Regra visual para exibição de preços (se houver preço promocional, destaca ele)
-                let htmlPreco = "";
-                if (produto.promo) {
-                    htmlPreco = `<p class="preco"><span class="preco-antigo">R$ ${produto.real}</span> <strong class="preco-atual">R$ ${produto.promo}</strong></p>`;
-                } else if (produto.real) {
-                    htmlPreco = `<p class="preco"><strong class="preco-atual">R$ ${produto.real}</strong></p>`;
-                }
-
-                card.innerHTML = `
-                    <div class="produto-conteudo">
-                        ${produto.imagem ? `<img src="${produto.imagem}" alt="${produto.nome}" style="max-width:100%; height:auto; display:block; margin:0 auto 10px;">` : ''}
-                        <h4>${produto.nome}</h4>
-                        ${htmlPreco}
-                        <a href="${produto.link}" target="_blank" class="botao-ver">Acessar</a>
-                    </div>
-                `;
-                gradeProdutos.appendChild(card);
-            });
-
-            container.appendChild(gradeProdutos);
-        }
-
-    } catch (erro) {
-        console.error("Erro na integração com o Sheets:", erro);
-        document.getElementById("container-dinamico-pedagogico").innerHTML = 
-            "<p style='color:red;'>Não foi possível carregar os produtos automaticamente.</p>";
-    }
-}
-
-document.addEventListener("DOMContentLoaded", carregarDadosPlanilha);
-</script>
+   <script src="script.js"></script>
 
 </body>
 </html>
