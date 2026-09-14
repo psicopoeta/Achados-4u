@@ -76,10 +76,15 @@ const MAPA_CATEGORIAS = {
     "POSTURA E MOTRICIDADE": "sub-postura"
 };
 
-function fmtPreco(valor) {
+// Removemos a antiga função fmtPreco e criamos um validador de tags comerciais
+function obterTextoComercial(valor, tipo) {
     const v = (valor || "").toString().trim();
-    if (!v) return "";
-    return v.startsWith("R$") ? v : `R$ ${v}`;
+    if (!v) {
+        // Se a planilha estiver vazia, define um texto padrão inteligente
+        return tipo === "atual" ? "🔥 Ver Preço Promocional" : "OFERTA ATIVA";
+    }
+    // Se você escreveu algo na planilha (ex: "Frete Grátis"), mantém o texto puro
+    return v;
 }
 
 async function carregarVitrineTerapeutica() {
@@ -115,16 +120,19 @@ async function carregarVitrineTerapeutica() {
         if (aviso) aviso.remove();
 
         const nome = (produto.nome || "").trim() || "Produto em destaque";
-        const precoAtual = fmtPreco(produto.preco_atual);
-        const precoAntigo = fmtPreco(produto.preco_antigo);
+        
+        // Puxa o texto comercial da planilha ou aplica o padrão caso esteja vazio
+        const textoAtual = obterTextoComercial(produto.preco_atual, "atual");
+        const textoAntigo = obterTextoComercial(produto.preco_antigo, "antigo");
         const imgUrl = (produto.url_imagem || "").trim();
 
         const blocoImg = /^https?:\/\//i.test(imgUrl)
             ? `<div class="img-container"><img src="${imgUrl}" alt="${nome}" style="max-width:100%; border-radius:8px; display:block; margin:0 auto;"></div>`
             : `<div class="img-container" style="min-height:120px; display:flex; align-items:center; justify-content:center; background:#eee; border-radius:8px; color:#999;">📷 imagem em breve</div>`;
 
-        const blocoAntigo = (precoAntigo && precoAntigo !== precoAtual)
-            ? `<span class="preco-antigo" style="text-decoration:line-through; color:#999; font-size:0.9em; margin-right:8px;">${precoAntigo}</span>`
+        // Renderiza a tag de destaque antiga apenas se fizer sentido
+        const blocoAntigo = (textoAntigo && textoAntigo !== textoAtual)
+            ? `<span class="tag-oferta" style="background:#ffeaa7; color:#d63031; font-size:0.8em; padding:2px 6px; border-radius:4px; font-weight:bold; margin-right:8px; text-transform:uppercase;">${textoAntigo}</span>`
             : "";
 
         const card = document.createElement("div");
@@ -132,11 +140,11 @@ async function carregarVitrineTerapeutica() {
         card.innerHTML = `
             ${blocoImg}
             <h4 style="margin:10px 0; font-size:1.1em; color:#333;">${nome}</h4>
-            <div class="precos" style="margin:8px 0;">
+            <div class="precos" style="margin:8px 0; display:flex; align-items:center; min-height:28px;">
                 ${blocoAntigo}
-                <strong class="preco-atual" style="color:#2ecc71; font-size:1.2em;">${precoAtual}</strong>
+                <strong class="preco-atual" style="color:#2ecc71; font-size:1.1em;">${textoAtual}</strong>
             </div>
-            <a href="${link}" target="_blank" rel="noopener" class="btn-comprar" style="display:block; text-align:center; padding:10px; background:#00a650; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold; margin-top:10px;">Ver no Mercado Livre</a>
+            <a href="${link}" target="_blank" rel="noopener" class="btn-comprar" style="display:block; text-align:center; padding:10px; background:#00a650; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold; margin-top:10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">Ver no Mercado Livre</a>
         `;
         grid.appendChild(card);
     });
