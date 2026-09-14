@@ -316,7 +316,7 @@
   },
   {
     "id": "11",
-    "categoria": "BOLA",
+    "categoria": "BOLAS",
     "nome": "Bola Peanut Ball Yoga Pilates",
     "link_afiliado": "https://meli.la/1JbmuKz",
     "preco_atual": "R$ 48,40",
@@ -325,7 +325,7 @@
   },
   {
     "id": "12",
-    "categoria": "BOLA",
+    "categoria": "BOLAS",
     "nome": "Bola Pilates Yoga Fisioterapia",
     "link_afiliado": "https://meli.la/1FQwoFy",
     "preco_atual": "R$ 39,99",
@@ -334,7 +334,7 @@
   },
   {
     "id": "13",
-    "categoria": "BOLA",
+    "categoria": "BOLAS",
     "nome": "Bola Suiça Pilates Fisio 65cm + Faixa Elastica + 5 Mini Band",
     "link_afiliado": "https://meli.la/2GMAqjY",
     "preco_atual": "R$ 56,99",
@@ -343,7 +343,7 @@
   },
   {
     "id": "14",
-    "categoria": "JOELHEIRA",
+    "categoria": "FAIXAS COMPRESSÃO",
     "nome": "Par Joelheira Bebê",
     "link_afiliado": "https://meli.la/16kzW7E",
     "preco_atual": "R$ 22,96",
@@ -352,7 +352,7 @@
   },
   {
     "id": "15",
-    "categoria": "JOELHEIRA",
+    "categoria": "FAIXAS COMPRESSÃO",
     "nome": "Joelheira Compressão Faixa",
     "link_afiliado": "https://meli.la/2Aj9Zhk",
     "preco_atual": "R$ 28,77",
@@ -361,7 +361,7 @@
   },
   {
     "id": "16",
-    "categoria": "CINTA",
+    "categoria": "FAIXAS COMPRESSÃO",
     "nome": "Faixa Cinta Elástica",
     "link_afiliado": "https://meli.la/2FSa8e9",
     "preco_atual": "R$ 89,02",
@@ -370,7 +370,7 @@
   },
   {
     "id": "17",
-    "categoria": "MUNHEQUEIRA",
+    "categoria": "FAIXAS COMPRESSÃO",
     "nome": "Munhequeira Elástica",
     "link_afiliado": "https://meli.la/1sCdBv3",
     "preco_atual": "R$ 24,90",
@@ -379,7 +379,7 @@
   },
   {
     "id": "18",
-    "categoria": "MUNHEQUEIRA",
+    "categoria": "FAIXAS COMPRESSÃO",
     "nome": "Munhequeira Profissional",
     "link_afiliado": "https://meli.la/2oBmgHK",
     "preco_atual": "R$ 38,97",
@@ -388,7 +388,7 @@
   },
   {
     "id": "19",
-    "categoria": "TORNOZELEIRA",
+    "categoria": "FAIXAS COMPRESSÃO",
     "nome": "Par Tornozeleira Ortopedica",
     "link_afiliado": "https://meli.la/289qxwC",
     "preco_atual": "R$ 29,28",
@@ -397,7 +397,7 @@
   },
   {
     "id": "20",
-    "categoria": "TORNOZELEIRA",
+    "categoria": "FAIXAS COMPRESSÃO",
     "nome": "Faixa Cinta Elástica Abdominal",
     "link_afiliado": "https://meli.la/1xK5mkM",
     "preco_atual": "R$ 27,42",
@@ -406,7 +406,7 @@
   },
   {
     "id": "21",
-    "categoria": "COLETE",
+    "categoria": "MANTA / COLETE PONDERADO",
     "nome": "Colete Ponderado Ajustável",
     "link_afiliado": "https://meli.la/14PcLM7",
     "preco_atual": "R$ 396,00",
@@ -415,7 +415,7 @@
   },
   {
     "id": "22",
-    "categoria": "COLETE",
+    "categoria": "MANTA / COLETE PONDERADO",
     "nome": "Colete De Peso",
     "link_afiliado": "https://meli.la/2NJ7HNo",
     "preco_atual": "R$ 163,94",
@@ -424,7 +424,7 @@
   },
   {
     "id": "23",
-    "categoria": "COBERTOR",
+    "categoria": "MANTA / COLETE PONDERADO",
     "nome": "Cobertor Ponderado",
     "link_afiliado": "https://meli.la/12CWULH",
     "preco_atual": "R$ 700,00",
@@ -433,7 +433,7 @@
   },
   {
     "id": "24",
-    "categoria": "COBERTOR",
+    "categoria": "MANTA / COLETE PONDERADO",
     "nome": "Cobertor Ponderado",
     "link_afiliado": "https://meli.la/1JDmWcc",
     "preco_atual": "R$ 797,99",
@@ -469,7 +469,7 @@
   },
   {
     "id": "2",
-    "categoria": "",
+    "categoria": "JOGO PEDAGÓGICO",
     "nome": "Brinquedo Autista Tabuleiro",
     "link_afiliado": "https://meli.la/2fSUo3i",
     "preco_atual": "R$ 47,99",
@@ -478,7 +478,7 @@
   },
   {
     "id": "3",
-    "categoria": "",
+    "categoria": "JOGO PEDAGÓGICO",
     "nome": "Jogos Pedagógicos De Encaixe Yins Kids",
     "link_afiliado": "https://meli.la/2QHbGdZ",
     "preco_atual": "R$ 35,69",
@@ -488,47 +488,47 @@
   {
     "id": "4",
     "categoria": "",
-    "nome": "",
+    "nome": "Quebra Cabeça Infantil",
     "link_afiliado": "https://meli.la/11jMJnB",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 29,99",
+    "preco_antigo": "R$ 39,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_879960-MLB115248663680_082026-F.webp"
   },
   {
     "id": "5",
     "categoria": "",
-    "nome": "",
+    "nome": "Quebra Cabeça De Madeira",
     "link_afiliado": "https://meli.la/1aGUvBQ",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 29,99",
+    "preco_antigo": "R$ 29,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_937200-MLB105398762560_012026-F-quebra-cabeca-de-madeira-encaixadinhos-cognitivo-animais.webp"
   },
   {
     "id": "6",
-    "categoria": "",
-    "nome": "",
+    "categoria": "JOGO PEDAGÓGICO",
+    "nome": "Blocos Encaixar 5 Formas/cores",
     "link_afiliado": "https://meli.la/1HiHxuN",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 28,90",
+    "preco_antigo": "R$ 35,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_803702-MLB114383276540_082026-F-brinquedo-educativo-madeira-blocos-encaixar-5-formascores.webp"
   },
   {
     "id": "7",
-    "categoria": "",
-    "nome": "",
+    "categoria": "JOGO PEDAGÓGICO",
+    "nome": "Brinquedo Caixa Educativa",
     "link_afiliado": "https://meli.la/1qShwu8",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 51,16",
+    "preco_antigo": "R$ 78,99",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_924025-MLB94465045653_102025-F-brinquedo-caixa-educativa-aprendizagem-matematica-montessori.webp"
   },
   {
     "id": "8",
-    "categoria": "",
-    "nome": "",
+    "categoria": "JOGO PEDAGÓGICO",
+    "nome": "Brinquedo Educativo Infantil",
     "link_afiliado": "https://meli.la/1oTewDc",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 24,95",
+    "preco_antigo": "R$ 49,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_838673-MLB113768978929_062026-F-brinquedo-educativo-infantil-pedagogico-auxilia-aprendizado.webp"
   },
   {
     "id": "9",
@@ -541,30 +541,21 @@
   },
   {
     "id": "10",
-    "categoria": "",
-    "nome": "",
+    "categoria": "COMUNICAÇÃO / FALA / LEITURA",
+    "nome": "Kit Terapêutico De Comunicação",
     "link_afiliado": "https://meli.la/2b5DzL8",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
-  },
-  {
-    "id": "11",
-    "categoria": "",
-    "nome": "",
-    "link_afiliado": "https://meli.la/1zEncBA",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 147,77",
+    "preco_antigo": "R$ 147,77",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_962439-MLB100389129673_122025-F.webp"
   },
   {
     "id": "12",
-    "categoria": "",
-    "nome": "",
+    "categoria": "JOGO PEDAGÓGIO",
+    "nome": "Maleta Educativa",
     "link_afiliado": "https://meli.la/2TcjnB1",
-    "preco_atual": "",
-    "preco_antigo": "",
-    "url_imagem": ""
+    "preco_atual": "R$ 55,94",
+    "preco_antigo": "R$ 78,90",
+    "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_930124-MLB75300334177_032024-F-brastoy-maleta-educativa-montessori-sensorial-brinquedo.webp"
   },
   {
     "id": "13",
@@ -577,7 +568,7 @@
   },
   {
     "id": "14",
-    "categoria": "FALA / LEITURA",
+    "categoria": "COMUNICAÇÃO / FALA / LEITURA",
     "nome": "Leitor De Cartões - Estímulo da fala.",
     "link_afiliado": "https://meli.la/1qjJs9C",
     "preco_atual": "R$ 34,99",
@@ -793,7 +784,7 @@
   },
   {
     "id": "38",
-    "categoria": "",
+    "categoria": "JOGO PEDAGÓGICO",
     "nome": "Kit 100 Blocos Magnéticos",
     "link_afiliado": "https://meli.la/2Lpe5Ns",
     "preco_atual": "R$ 56,03",
@@ -802,7 +793,7 @@
   },
   {
     "id": "39",
-    "categoria": "",
+    "categoria": "JOGO PEDAGÓGICO",
     "nome": "Cubos Matemáticos Didáticos",
     "link_afiliado": "https://meli.la/1LG71cx",
     "preco_atual": "R$ 59,00",
@@ -811,7 +802,7 @@
   },
   {
     "id": "40",
-    "categoria": "",
+    "categoria": "JOGO PEDAGÓGICO",
     "nome": "Didático Para Matemática",
     "link_afiliado": "https://meli.la/1EFcdVE",
     "preco_atual": "R$ 24,50",
@@ -820,7 +811,7 @@
   },
   {
     "id": "41",
-    "categoria": "",
+    "categoria": "JOGO PEDAGÓGICO",
     "nome": "Blocos De Construção Magnéticos",
     "link_afiliado": "https://meli.la/2wJ2ziG",
     "preco_atual": "R$ 135,69",
@@ -838,7 +829,7 @@
   },
   {
     "id": "43",
-    "categoria": "",
+    "categoria": "LOUSA",
     "nome": "Lousa Mágica",
     "link_afiliado": "https://meli.la/2MUohd2",
     "preco_atual": "R$ 19,90",
@@ -847,7 +838,7 @@
   },
   {
     "id": "44",
-    "categoria": "",
+    "categoria": "LOUSA",
     "nome": "Tábua De Desenho Magnética",
     "link_afiliado": "https://meli.la/2uqAGnd",
     "preco_atual": "R$ 39,99",
