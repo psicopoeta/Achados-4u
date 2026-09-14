@@ -130,6 +130,19 @@ header .container {
     left: 0;
     border-radius: 4px;
     overflow: hidden;
+    max-height: 70vh; /* Limita a altura do menu a 70% da altura da tela do usuário */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical suave se o conteúdo for maior que a tela */
+    overflow-x: hidden; /* Evita qualquer rolagem horizontal indesejada */
+}
+
+.dropdown-menu .dropdown-header {
+    color: #ffffff !important;         /* Força o texto a ficar branco */
+    background-color: #3d4654;         /* Adiciona o fundo cinza destacado */
+    font-weight: bold;
+    padding: 6px 15px;
+    margin: 4px 0;
+    font-size: 0.85em;
+    text-transform: uppercase;
 }
 
 .dropdown-menu li {
