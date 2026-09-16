@@ -62,7 +62,7 @@ const MAPA_CATEGORIAS = {
     "MANTA PONDERADA": "sub-ponderado",
     "COLETE PONDERADO": "sub-ponderado",
     "FAIXAS COMPRESSÃO": "sub-faixas",
-    "FAIXAS COMPRESSAO": "sub-faixas"
+    "FAIXAS COMPRESSAO": "sub-faixas",
     "MUNHEQUEIRA": "sub-faixas",
     "JOELHEIRA": "sub-faixas",
     "CINTA": "sub-faixas",
