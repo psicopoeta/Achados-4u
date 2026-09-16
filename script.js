@@ -75,7 +75,7 @@ const MAPA_CATEGORIAS = {
     "COMUNICAÇÃO/FALA/LEITURA": "sub-comunicação",
     "COMUNICACAO/FALA/LEITURA": "sub-comunicacao",
     "JOGO PEDAGOGICO": "sub-jogo",
-    "QUEBRACABECA": "sub-quebra",
+    "QUEBRA-CABECA": "sub-quebra",
     "QUEBRA-CABEÇA": "sub-quebra",
     "LOUSA": "sub-lousa",
     "COGNITIVO": "sub-pedagogico",
